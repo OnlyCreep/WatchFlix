@@ -6,6 +6,8 @@ import SignPart from "./SignPart/SignPart";
 import SignPart_mobile from "./SignPart_mobile/SignPart";
 
 export default function SignPage() {
+    document.title = "WatchFlix - войти | регистрация"
+
   return (
     <section className="sign_page">
       <NavMinor />

@@ -5,6 +5,8 @@ import NavMinor from './NavMinor/NavMinor'
 import Search from './Search/Search'
 
 export default function SearchPage() {
+    document.title = "WatchFlix - поиск"
+
   return (
     <main className='search_page'>
         <NavMinor />

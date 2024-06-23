@@ -8,6 +8,8 @@ import SubInfo from "./SubInfo/SubInfo";
 import Footer from "./Footer/Footer";
 
 export default function MainPage() {
+  document.title = "WatchFlix - главная"
+  
   return (
     <>
       <Navbar />
