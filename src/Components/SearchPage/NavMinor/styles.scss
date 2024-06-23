@@ -1,0 +1,123 @@
+.nav_minor {
+    height: 100px;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.nav_minor-oops-sign {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_minor-oops-sign.active {
+    color: #D40080;
+}
+
+.nav_minor-opps {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.nav_minor-oops-logo {
+    font-size: 40px;
+    font-weight: bold;
+    filter: drop-shadow(0  0 5px #FA00FF);
+    text-decoration: none;
+    transition: filter 200ms;
+}
+
+.nav_minor-oops-elem {
+    color: white;
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+.nav_minor-oops-elem.active {
+    color: #D40080;
+}
+
+.nav_minor-oops-elem:hover {
+    color: #d4007f98;
+}
+
+.nav_minor-oops-sign {
+    transition: color 200ms;
+}
+
+.nav_minor-oops-sign:hover {
+    color: #ff0099;
+}
+
+.nav_minor-oops-logo:hover {
+    filter: drop-shadow(0 0 10px #FA00FF);
+}
+
+.logo_part:first-child {
+    color: #CC00FF;
+}
+
+.logo_part:last-child {
+    color: #FF00C7;
+}
+
+.burger_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .burger_menu {
+        display: block;
+    }
+
+    .nav_minor-oops-elem, .nav_minor-oops-sign {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav_minor {
+        height: 80px;
+    }
+
+    .burger_menu {
+        width: 60px;
+    }
+
+    .nav_minor-oops-logo {
+       font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav_minor {
+        height: 70px;
+    }
+
+    .burger_menu {
+        width: 50px;
+    }
+
+    .nav_minor-oops-logo {
+       font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav_minor {
+        height: 60px;
+    }
+
+    .burger_menu {
+        width: 40px;
+    }
+
+    .nav_minor-oops-logo {
+       font-size: 24px;
+    }
+}

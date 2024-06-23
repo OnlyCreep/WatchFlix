@@ -1,0 +1,163 @@
+.sign_part {
+  margin-top: 175px;
+  display: flex;
+  align-items: center;
+}
+
+.sign_part-panel {
+  margin: auto;
+  height: 500px;
+  width: 50%;
+  border: 2px solid #cc00ff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  transition: border 1s;
+}
+
+.sign_part-panel-box_coating {
+  height: 101%;
+  width: 50%;
+  border-radius: 50px;
+  transition-property: background-color, transform, border-radius;
+  transition-duration: 1s;
+  z-index: 10;
+  text-align: center;
+}
+
+.sign_part-panel-box_coating.reg {
+  background-color: #cc00ff;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin-left: -1px;
+}
+
+.sign_part-panel-box_coating.sign {
+  background-color: #ff00c7;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  transform: translateX(100.5%);
+}
+
+.panel_anim {
+  animation: panel_appearance 1s;
+}
+
+.sign_part-panel-content-title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 100px;
+}
+
+.sign_part-panel-content-social_icons {
+  margin: auto;
+  margin-top: 2vw;
+  padding: 0 20px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign_part-panel-content-social_icons img {
+    cursor: pointer;
+    width: 20%;
+}
+
+.sign_part-panel-content-title {
+  font-size: 2vw;
+}
+
+.sign_part-panel-content-auth_opp {
+  margin: auto;
+  margin-top: 8vw;
+  text-decoration: underline;
+  cursor: pointer;
+  width: max-content;
+}
+
+.panel_auth {
+  width: 50%;
+}
+
+.panel_auth.sign {
+  animation: form_anim_sign 1s both;
+}
+
+.panel_auth.reg {
+  animation: form_anim_reg 1s both;
+}
+
+@keyframes panel_appearance {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes form_anim_sign {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes form_anim_reg {
+  from {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .sign_part-panel {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .sign_part-panel {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sign_part-panel {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sign_part {
+    display: none;
+  }
+}

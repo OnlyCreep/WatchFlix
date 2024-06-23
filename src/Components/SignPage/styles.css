@@ -1,0 +1,13 @@
+.sign_page {
+  background-color: #1d0018;
+}
+
+.sign_part_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .sign_part_mobile {
+    display: block;
+  }
+}/*# sourceMappingURL=styles.css.map */

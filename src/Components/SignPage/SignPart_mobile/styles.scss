@@ -1,0 +1,202 @@
+.sign_part_mobile {
+  color: white;
+  margin-top: 150px;
+}
+
+.animOpacity {
+    animation: opacity_anim 1s;
+}
+
+.sign_part_mobile-panel.sign {
+    border: 2px solid #FF00C7;
+    background: url("../../../../public/images/plain_auth_sign.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 700px;
+}
+
+.main_panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_part_mobile-panel {
+  background: url("../../../../public/images/plain_auth.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  width: 60%;
+  height: 800px;
+  border: 2px solid #cc00ff;
+  border-radius: 60px;
+  margin: auto;
+  transition-property: border, background-image, height;
+  transition-duration: 1s;
+}
+
+.sign_part_mobile-panel-title {
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+.sign_part_mobile-panel-social_icons {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plain_auth {
+  width: 100%;
+}
+
+.panel-form-placeholder.sign {
+    background-color: 1px solid #FF00C7;
+}
+
+.panel-form-field.sign {
+    border: 1px solid #ff00c7;
+}
+
+.panel.mobile {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign_part_mobile-panel-qw {
+  margin-top: 70px;
+  text-decoration: underline;
+}
+
+.sign_part_mobile-panel-qw.sign {
+    margin-top: 120px;
+}
+
+.panel-butt.mobile {
+  margin-top: 50px;
+  background-color: #ff00c7;
+  width: 300px;
+  transition: background-color 1s;
+}
+
+.panel-butt.mobile.sign {
+    background-color: #cc00ff;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .sign_part_mobile {
+    margin-top: 120px;
+  }
+
+  .sign_part_mobile-panel {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sign_part_mobile-panel {
+    width: 90%;
+    height: 700px;
+  }
+
+  .sign_part_mobile-panel.sign {
+    height: 600px;
+  }
+
+  .sign_part_mobile {
+    margin-top: 100px;
+  }
+
+  .sign_part_mobile-panel-social_icons {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .sign_part_mobile-panel-social_icons img {
+    width: 18%;
+  }
+
+  .sign_part_mobile-panel-title {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .panel.mobile {
+    margin-top: 0;
+  }
+
+  .panel-form-placeholder {
+    font-size: 16px;
+  }
+
+  .panel-form-field {
+    font: 16px;
+    height: 45px;
+  }
+
+  .panel-form-field:focus + .panel-form-placeholder,
+  .panel-form-field:not(:placeholder-shown) + .panel-form-placeholder {
+    font-size: 14px;
+  }
+
+  .panel-butt.mobile {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .panel {
+    padding: 20px;
+    padding-top: 50px;
+  }
+
+  .sign_part_mobile-panel {
+    border-radius: 40px;
+    height: 650px;
+  }
+
+  .sign_part_mobile-panel.sign {
+    height: 550px;
+  }
+
+  .sign_part_mobile-panel-qw.sign {
+    margin-top: 80px;
+  }
+
+  .sign_part_mobile-panel-qw {
+    margin-top: 30px;
+  }
+
+  .panel-butt.mobile {
+    height: 45px;
+  }
+
+  .sign_part_mobile {
+    margin-top: 80px;
+  }
+}
+
+@keyframes opacity_anim {
+    from {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
