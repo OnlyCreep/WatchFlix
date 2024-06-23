@@ -42,6 +42,31 @@
   text-align: center;
 }
 
+.sidePanel-opps {
+  display: none;
+}
+
+.closeButt {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.sidePanel {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 400ms;
+  display: none;
+}
+
 .nav_mainPage-opps-elem-sign {
   width: 33.3%;
   text-align: end;
@@ -60,8 +85,40 @@
   }
 }
 @media screen and (max-width: 1024px) {
+  .sidePanel {
+    display: block;
+  }
   .nav_mainPage-opps {
     font-size: 20px;
+  }
+  .sidePanel-opps {
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 100;
+    background-color: #2d0025;
+    transform: translateX(100%);
+    transition: transform 400ms;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .sidePanel-opps-elem,
+  .sidePanel-opps-elem-sign {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .sidePanel-opps-left_elem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 35%;
+    justify-content: space-between;
   }
   .nav_mainPage-opps-elem-burger {
     display: block;
@@ -78,6 +135,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .sidePanel-opps {
+    width: 70%;
+  }
   .nav_mainPage {
     height: 65px;
     width: 80%;
@@ -87,6 +147,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .sidePanel-opps {
+    width: 80%;
+  }
   .nav_mainPage {
     height: 60px;
   }
@@ -97,6 +160,9 @@
 @media screen and (max-width: 320px) {
   .nav_mainPage {
     height: 50px;
+  }
+  .sidePanel-opps {
+    width: 90%;
   }
   .nav_mainPage-opps-elem-burger {
     width: 40px;
