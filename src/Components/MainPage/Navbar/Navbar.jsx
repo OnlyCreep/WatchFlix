@@ -57,18 +57,20 @@ export default function Navbar() {
             >
               Поиск
             </NavLink>
-            <li
+            <NavLink
+              to={"/films"}
               className="sidePanel-opps-elem"
               onClick={() => (document.body.style.overflow = "visible")}
             >
               Фильмы
-            </li>
-            <li
+            </NavLink>
+            <NavLink
+              to={"/serials"}
               className="sidePanel-opps-elem"
               onClick={() => (document.body.style.overflow = "visible")}
             >
               Сериалы
-            </li>
+            </NavLink>
           </div>
         </ul>
       </>
@@ -77,8 +79,12 @@ export default function Navbar() {
           <NavLink className="nav_mainPage-opps-elem" to={"/search"}>
             Поиск
           </NavLink>
-          <li className="nav_mainPage-opps-elem">Фильмы</li>
-          <li className="nav_mainPage-opps-elem">Сериалы</li>
+          <NavLink to={"/films"} className="nav_mainPage-opps-elem">
+            Фильмы
+          </NavLink>
+          <NavLink to={"/serials"} className="nav_mainPage-opps-elem">
+            Сериалы
+          </NavLink>
         </div>
         <li className="nav_mainPage-opps-logo">
           <MainLogo />

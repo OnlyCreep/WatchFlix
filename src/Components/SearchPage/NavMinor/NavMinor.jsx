@@ -16,8 +16,12 @@ export default function NavMinor() {
         <NavLink to={"/search"} className="nav_minor-oops-elem">
           Поиск
         </NavLink>
-        <li className="nav_minor-oops-elem">Фильмы</li>
-        <li className="nav_minor-oops-elem">Сериалы</li>
+        <NavLink to={"/films"} className="nav_minor-oops-elem">
+          Фильмы
+        </NavLink>
+        <NavLink to={"/serials"} className="nav_minor-oops-elem">
+          Сериалы
+        </NavLink>
         <NavLink to={"/sign"} className="nav_minor-oops-sign">
           Войти
         </NavLink>
@@ -75,18 +79,20 @@ export default function NavMinor() {
             >
               Поиск
             </NavLink>
-            <li
+            <NavLink
+              to={"/films"}
               className="sidePanel-opps-elem"
               onClick={() => (document.body.style.overflow = "visible")}
             >
               Фильмы
-            </li>
-            <li
+            </NavLink>
+            <NavLink
+              to={"/serials"}
               className="sidePanel-opps-elem"
               onClick={() => (document.body.style.overflow = "visible")}
             >
               Сериалы
-            </li>
+            </NavLink>
           </div>
         </ul>
       </>

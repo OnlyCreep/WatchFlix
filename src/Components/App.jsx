@@ -4,6 +4,7 @@ import MainPage from "./MainPage/MainPage";
 import { Context } from "./Context";
 import SearchPage from "./SearchPage/SearchPage";
 import SignPage from "./SignPage/SignPage";
+import FilmPage from "./FilmPage/FilmPage";
 
 export default function App() {
   const [films, setFilms] = useState([]);
@@ -32,6 +33,8 @@ export default function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/sign" element={<SignPage />} />
+          <Route path="/films" element={<FilmPage />} />
+          <Route path="/serials" element={<FilmPage />} />
         </Routes>
       </BrowserRouter>
     </Context.Provider>
