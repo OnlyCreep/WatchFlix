@@ -19,7 +19,10 @@ export default function Navbar() {
             backgroundColor: `${asidePanel ? "rgba(0, 0, 0, 0.4)" : ""}`,
             height: `${asidePanel ? "100vh" : "0"}`,
           }}
-          onClick={() => showPanel(!asidePanel)}
+          onClick={() => {
+            document.body.style.overflow = "visible";
+            showPanel(!asidePanel);
+          }}
         ></aside>
         <ul
           className="sidePanel-opps"
@@ -34,7 +37,10 @@ export default function Navbar() {
           >
             <CgClose
               className="closeButt"
-              onClick={() => showPanel(!asidePanel)}
+              onClick={() => {
+                showPanel(!asidePanel);
+                document.body.style.overflow = "visible";
+              }}
             />
             <NavLink
               className="sidePanel-opps-elem-sign"
