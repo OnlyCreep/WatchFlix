@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function MainTitle() {
   window.addEventListener("resize", () => {
@@ -47,7 +48,7 @@ export default function MainTitle() {
           Лучшие <span style={{ color: "#FF00C7" }}>фильмы</span> и{" "}
           <span style={{ color: "#CC00FF" }}>сериалы</span>
         </h2>
-        <button className="main_title-watch_butt">Смотреть</button>
+        <Link to={"/films"}><button className="main_title-watch_butt">Смотреть</button></Link>
       </section>
     </>
   );
