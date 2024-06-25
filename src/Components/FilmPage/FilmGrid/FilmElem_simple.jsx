@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BiHeart } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { Context } from "../../Context";
 
 export default function FilmElem_simple(props) {
   const { el } = props.value;
 
+  const { setPage } = useContext(Context);
+
   return (
     <div className="search_part-films-elem">
-      <Link to={`/film&id=${el.kinopoiskId}`}>
+      <Link
+        to={`/film&id=${el.kinopoiskId}`}
+        onClick={() => setPage(el.kinopoiskId)}
+      >
         <img
           src={el.posterUrl}
           alt=""
@@ -17,6 +23,7 @@ export default function FilmElem_simple(props) {
       <aside className="search_part-films-elem-infos">
         <div className="search_part-films-elem-info">
           <Link
+            onClick={() => setPage(el.kinopoiskId)}
             to={`/film&id=${el.kinopoiskId}`}
             className="search_part-films-elem-info-name"
           >

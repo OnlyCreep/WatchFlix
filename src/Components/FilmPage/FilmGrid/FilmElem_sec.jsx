@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useContext } from "react";
 import { BiHeart } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { Context } from "../../Context";
 
 export default function FilmElem_sec(props) {
   const { el } = props.value;
 
+  const { setPage } = useContext(Context);
+
   return (
     <div className="film_sec">
-      <Link to={`/film&id=${el.kinopoiskId}`}>
+      <Link
+        to={`/film&id=${el.kinopoiskId}`}
+        onClick={() => setPage(el.kinopoiskId)}
+      >
         <img src={el.posterUrl} alt="" className="film_sec-poster" />
       </Link>
       <aside className="film_sec-info">
         <div className="film_sec-info-content">
           <Link
+            onClick={() => setPage(el.kinopoiskId)}
             to={`/film&id=${el.kinopoiskId}`}
             className="film_sec-info-content-name"
           >

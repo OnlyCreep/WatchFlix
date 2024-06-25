@@ -196,7 +196,10 @@
 
 .search_part-films-elem-funcs {
   display: flex;
-  justify-content: space-between;
+}
+
+.search_part-films-elem-funcs-watch {
+  margin-left: 10vw;
 }
 
 .search_part-films-elem-funcs-watch {

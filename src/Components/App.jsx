@@ -6,10 +6,11 @@ import SearchPage from "./SearchPage/SearchPage";
 import SignPage from "./SignPage/SignPage";
 import FilmPage from "./FilmPage/FilmPage";
 import SerialPage from "./SerialPage/FilmPage";
+import WatchPage from "./WatchPage/WatchPage";
 
 export default function App() {
   const [films, setFilms] = useState([]);
-  const [regPanel, setPanel] = useState(true);
+  const [filmId, setPage] = useState(document.location.pathname.split("=")[1]);
 
   useEffect(() => {
     fetch(
@@ -28,7 +29,7 @@ export default function App() {
   }, [null]);
 
   return (
-    <Context.Provider value={{ films }}>
+    <Context.Provider value={{ films, filmId, setPage }}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/sign" element={<SignPage />} />
           <Route path="/films" element={<FilmPage />} />
           <Route path="/serials" element={<SerialPage />} />
+          <Route path={`/film&id=${filmId}`} element={<WatchPage />} />
         </Routes>
       </BrowserRouter>
     </Context.Provider>

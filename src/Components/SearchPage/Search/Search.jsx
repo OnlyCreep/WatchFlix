@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./styles.css";
 import { BiHeart } from "react-icons/bi";
+import { Link } from "react-router-dom";
+import { Context } from "../../Context";
 
 export default function Search() {
   const [filterOn, setFilOn] = useState(false);
@@ -11,6 +13,8 @@ export default function Search() {
   const [warn, setWarn] = useState("");
   const [lettersMax, setMax] = useState(300);
   const [searchText, setText] = useState("");
+
+  const { setPage } = useContext(Context);
 
   function search() {
     if (inptVal) {
@@ -48,8 +52,6 @@ export default function Search() {
       setFilms("");
       setWarn("По вашему запросу не найдено результатов");
     }
-
-    console.log(films);
   }
 
   return (
@@ -145,16 +147,25 @@ export default function Search() {
         {films &&
           films.map((el) => (
             <div className="search_part-films-elem">
-              <img
-                src={el.posterUrl}
-                alt=""
-                className="search_part-films-elem-image"
-              />
+              <Link
+                to={`/film&id=${el.kinopoiskId}`}
+                onClick={() => setPage(el.kinopoiskId)}
+              >
+                <img
+                  src={el.posterUrl}
+                  alt=""
+                  className="search_part-films-elem-image"
+                />
+              </Link>
               <aside className="search_part-films-elem-infos">
                 <div className="search_part-films-elem-info">
-                  <div className="search_part-films-elem-info-name">
+                  <Link
+                    className="search_part-films-elem-info-name"
+                    to={`/film&id=${el.kinopoiskId}`}
+                    onClick={() => setPage(el.kinopoiskId)}
+                  >
                     {el.nameRu}
-                  </div>
+                  </Link>
                   <div className="search_part-films-elem-info-genres">
                     Жанры:{" "}
                     {el.genres.map((item, i) =>
@@ -172,9 +183,6 @@ export default function Search() {
                     <div className="mask"></div>
                     <BiHeart className="search_part-films-elem-funcs-inlike" />
                   </div>
-                  <button className="search_part-films-elem-funcs-watch">
-                    Смотреть
-                  </button>
                 </div>
               </aside>
             </div>

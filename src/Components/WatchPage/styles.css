@@ -1,0 +1,230 @@
+:root {
+  --marg: 20px;
+}
+
+.watch_page {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #290022;
+  padding: var(--marg);
+}
+
+.watch_page-film_info {
+  display: flex;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.watch_page-film_info-poster {
+  width: 300px;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.kinobox_player {
+  position: relative;
+  z-index: 1;
+}
+
+.watch_page-film_info-content {
+  padding-left: var(--marg);
+}
+
+.watch_page-film_info-content-rate-star {
+  color: rgb(233, 233, 0);
+}
+
+.watch_page-film_info-content-rate-star {
+  font-size: 30px;
+}
+
+.min_rate {
+  font-size: 16px;
+  color: #888;
+}
+
+.watch_page-film_info-content-rate {
+  display: flex;
+  align-items: flex-end;
+}
+
+.watch_page-film_info-content-rate-info {
+  font-size: 24px;
+}
+
+.watch_page-film_info-content-name {
+  font-size: 36px;
+  margin-top: var(--marg);
+}
+
+.watch_page-film_info-content-year-type {
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(194, 194, 194);
+}
+
+.watch_page-film_info-content-description_title {
+  margin-top: 50px;
+}
+
+.watch_page-film_info-content-description {
+  margin-top: var(--marg);
+  color: rgb(221, 221, 221);
+  width: 80%;
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --marg: 15px;
+  }
+  .watch_page-film_info-content-description {
+    width: 100%;
+  }
+  .watch_page-film_info-poster {
+    width: 250px;
+  }
+  .watch_page-film_info-content-description_title {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .watch_page-film_info {
+    margin-bottom: 80px;
+  }
+  .watch_page-film_info-content-description {
+    display: none;
+  }
+  .watch_page-film_info-content-description_title {
+    display: none;
+  }
+  .watch_page-film_info-content-name {
+    font-size: 32px;
+  }
+  .watch_page-film_info-content-year-type {
+    font-size: 16px;
+  }
+  .watch_page-film_info-content-rate-info {
+    font-size: 20px;
+  }
+  .min_rate {
+    font-size: 14px;
+  }
+  .watch_page-film_info-content-rate-star {
+    font-size: 24px;
+  }
+  .watch_page-film_info-poster {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .watch_page {
+    width: 90%;
+  }
+  .watch_page-film_info {
+    margin-bottom: 60px;
+  }
+  .watch_page-film_info-content-name {
+    font-size: 24px;
+  }
+  .watch_page-film_info-content-year-type {
+    font-size: 14px;
+  }
+  .watch_page-film_info-content-rate-info {
+    font-size: 16px;
+  }
+  .min_rate {
+    font-size: 12px;
+  }
+  .watch_page-film_info-content-rate-star {
+    font-size: 20px;
+  }
+  .watch_page-film_info-poster {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .watch_page {
+    width: 100%;
+    background-color: transparent;
+  }
+  .watch_page {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .watch_page-film_info {
+    margin-bottom: 40px;
+  }
+  :root {
+    --marg: 10px;
+  }
+  .watch_page-film_info-content-name {
+    font-size: 20px;
+  }
+  .watch_page-film_info-content-year-type {
+    font-size: 12px;
+  }
+  .watch_page-film_info-content-rate-info {
+    font-size: 14px;
+  }
+  .min_rate {
+    font-size: 10px;
+  }
+  .watch_page-film_info-content-rate-star {
+    font-size: 16px;
+  }
+  .watch_page-film_info-poster {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .watch_page {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  :root {
+    --marg: 5px;
+  }
+  .watch_page-film_info-content-name {
+    font-size: 16px;
+  }
+  .watch_page-film_info-content-year-type {
+    font-size: 10px;
+  }
+  .watch_page-film_info-content-rate-info {
+    font-size: 12px;
+  }
+  .min_rate {
+    font-size: 10px;
+  }
+  .watch_page-film_info-content-rate-star {
+    font-size: 14px;
+  }
+  .watch_page-film_info-poster {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .watch_page-film_info {
+    margin-bottom: 20px;
+  }
+  .watch_page-film_info-content-name {
+    font-size: 14px;
+  }
+  .watch_page-film_info-content-year-type {
+    font-size: 10px;
+  }
+  .watch_page-film_info-content-rate-info {
+    font-size: 12px;
+  }
+  .min_rate {
+    font-size: 10px;
+  }
+  .watch_page-film_info-content-rate-star {
+    font-size: 12px;
+  }
+  .watch_page-film_info-poster {
+    width: 80px;
+  }
+}/*# sourceMappingURL=styles.css.map */

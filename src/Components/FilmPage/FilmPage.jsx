@@ -30,8 +30,6 @@ export default function FilmPage() {
 
   const filterElem = useRef(null);
 
-  console.log(films);
-
   useEffect(() => {
     fetch(
       `https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=${type_page}&page=${page}`,
