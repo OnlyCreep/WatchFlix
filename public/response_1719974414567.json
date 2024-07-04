@@ -1,0 +1,619 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 927898,
+      "imdbId": null,
+      "nameRu": "Переводчик",
+      "nameEn": null,
+      "nameOriginal": "The Covenant",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Испания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.5,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/927898.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/927898.jpg"
+    },
+    {
+      "kinopoiskId": 4647040,
+      "imdbId": "tt15939084",
+      "nameRu": "Король и Шут",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4647040.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4647040.jpg"
+    },
+    {
+      "kinopoiskId": 5304403,
+      "imdbId": "tt28429213",
+      "nameRu": "Слово пацана. Кровь на асфальте",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5304403.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5304403.jpg"
+    },
+    {
+      "kinopoiskId": 5079093,
+      "imdbId": "tt22808620",
+      "nameRu": "Монастырь",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5079093.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5079093.jpg"
+    },
+    {
+      "kinopoiskId": 409424,
+      "imdbId": "tt1160419",
+      "nameRu": "Дюна",
+      "nameEn": null,
+      "nameOriginal": "Dune: Part One",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Венгрия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/409424.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/409424.jpg"
+    },
+    {
+      "kinopoiskId": 804662,
+      "imdbId": "tt3228774",
+      "nameRu": "Круэлла",
+      "nameEn": null,
+      "nameOriginal": "Cruella",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Ирландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7.3,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/804662.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/804662.jpg"
+    },
+    {
+      "kinopoiskId": 1322324,
+      "imdbId": null,
+      "nameRu": "Всё везде и сразу",
+      "nameEn": null,
+      "nameOriginal": "Everything Everywhere All at Once",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 7.8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1322324.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1322324.jpg"
+    },
+    {
+      "kinopoiskId": 1395460,
+      "imdbId": "tt14675430",
+      "nameRu": "Медиатор",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": null,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1395460.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1395460.jpg"
+    },
+    {
+      "kinopoiskId": 4443734,
+      "imdbId": "tt21064076",
+      "nameRu": "Фишер",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 6.8,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4443734.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4443734.jpg"
+    },
+    {
+      "kinopoiskId": 1355139,
+      "imdbId": "tt15843762",
+      "nameRu": "Лулу и Бриггс",
+      "nameEn": null,
+      "nameOriginal": "Dog",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": 6.5,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1355139.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1355139.jpg"
+    },
+    {
+      "kinopoiskId": 1316601,
+      "imdbId": "tt11198330",
+      "nameRu": "Дом Дракона",
+      "nameEn": null,
+      "nameOriginal": "House of the Dragon",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.4,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1316601.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1316601.jpg"
+    },
+    {
+      "kinopoiskId": 4642708,
+      "imdbId": "tt15527340",
+      "nameRu": "Нулевой пациент",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 7.7,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4642708.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4642708.jpg"
+    },
+    {
+      "kinopoiskId": 1200189,
+      "imdbId": "tt8690918",
+      "nameRu": "Засланец из космоса",
+      "nameEn": null,
+      "nameOriginal": "Resident Alien",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.1,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1200189.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1200189.jpg"
+    },
+    {
+      "kinopoiskId": 1263705,
+      "imdbId": "tt10288566",
+      "nameRu": "Еще по одной",
+      "nameEn": null,
+      "nameOriginal": "Druk",
+      "countries": [
+        {
+          "country": "Швеция"
+        },
+        {
+          "country": "Дания"
+        },
+        {
+          "country": "Нидерланды"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7.7,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1263705.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1263705.jpg"
+    },
+    {
+      "kinopoiskId": 4922959,
+      "imdbId": "tt17009348",
+      "nameRu": "Догмен",
+      "nameEn": null,
+      "nameOriginal": "Dogman",
+      "countries": [
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 6.7,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4922959.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4922959.jpg"
+    },
+    {
+      "kinopoiskId": 4958668,
+      "imdbId": "tt21617276",
+      "nameRu": "Триггер. Фильм",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 6,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4958668.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4958668.jpg"
+    },
+    {
+      "kinopoiskId": 1183599,
+      "imdbId": "tt12200256",
+      "nameRu": "Огонь",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 6.5,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1183599.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1183599.jpg"
+    },
+    {
+      "kinopoiskId": 1015471,
+      "imdbId": "tt5109280",
+      "nameRu": "Райя и последний дракон",
+      "nameEn": null,
+      "nameOriginal": "Raya and the Last Dragon",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.3,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1015471.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1015471.jpg"
+    },
+    {
+      "kinopoiskId": 1209527,
+      "imdbId": "tt9198364",
+      "nameRu": "Три тысячи лет желаний",
+      "nameEn": null,
+      "nameOriginal": "Three Thousand Years of Longing",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Австралия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 6.7,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1209527.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1209527.jpg"
+    },
+    {
+      "kinopoiskId": 4632862,
+      "imdbId": "tt15430628",
+      "nameRu": "Кунг-фу жеребец",
+      "nameEn": null,
+      "nameOriginal": "Long ma jing shen",
+      "countries": [
+        {
+          "country": "Китай"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 6.3,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4632862.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4632862.jpg"
+    }
+  ]
+}

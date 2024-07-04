@@ -1,0 +1,640 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 409424,
+      "imdbId": "tt1160419",
+      "nameRu": "Дюна",
+      "nameEn": null,
+      "nameOriginal": "Dune: Part One",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Венгрия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/409424.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/409424.jpg"
+    },
+    {
+      "kinopoiskId": 4531254,
+      "imdbId": "tt15474794",
+      "nameRu": "Два холма",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4531254.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4531254.jpg"
+    },
+    {
+      "kinopoiskId": 1199100,
+      "imdbId": "tt6264654",
+      "nameRu": "Главный герой",
+      "nameEn": null,
+      "nameOriginal": "Free Guy",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": 7.1,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1199100.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1199100.jpg"
+    },
+    {
+      "kinopoiskId": 1387021,
+      "imdbId": "tt12361974",
+      "nameRu": "Лига справедливости Зака Снайдера",
+      "nameEn": null,
+      "nameOriginal": "Zack Snyder's Justice League",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 7.9,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1387021.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1387021.jpg"
+    },
+    {
+      "kinopoiskId": 1322324,
+      "imdbId": null,
+      "nameRu": "Всё везде и сразу",
+      "nameEn": null,
+      "nameOriginal": "Everything Everywhere All at Once",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 7.8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1322324.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1322324.jpg"
+    },
+    {
+      "kinopoiskId": 1236063,
+      "imdbId": "tt6723592",
+      "nameRu": "Довод",
+      "nameEn": null,
+      "nameOriginal": "Tenet",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.5,
+      "ratingImdb": 7.3,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1236063.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1236063.jpg"
+    },
+    {
+      "kinopoiskId": 5019944,
+      "imdbId": "tt23805348",
+      "nameRu": "Кибердеревня",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.4,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5019944.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5019944.jpg"
+    },
+    {
+      "kinopoiskId": 5394690,
+      "imdbId": null,
+      "nameRu": "Иван Васильевич меняет всё",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 6.5,
+      "ratingImdb": 4.4,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5394690.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5394690.jpg"
+    },
+    {
+      "kinopoiskId": 1219149,
+      "imdbId": "tt9376612",
+      "nameRu": "Шан-Чи и легенда десяти колец",
+      "nameEn": null,
+      "nameOriginal": "Shang-Chi and the Legend of the Ten Rings",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.3,
+      "ratingImdb": 7.4,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1219149.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1219149.jpg"
+    },
+    {
+      "kinopoiskId": 1200189,
+      "imdbId": "tt8690918",
+      "nameRu": "Засланец из космоса",
+      "nameEn": null,
+      "nameOriginal": "Resident Alien",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.1,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1200189.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1200189.jpg"
+    },
+    {
+      "kinopoiskId": 1227967,
+      "imdbId": "tt7097896",
+      "nameRu": "Веном 2",
+      "nameEn": null,
+      "nameOriginal": "Venom: Let There Be Carnage",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 6.2,
+      "ratingImdb": 5.9,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1227967.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1227967.jpg"
+    },
+    {
+      "kinopoiskId": 1309570,
+      "imdbId": "tt10872600",
+      "nameRu": "Человек-паук: Нет пути домой",
+      "nameEn": null,
+      "nameOriginal": "Spider-Man: No Way Home",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.2,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1309570.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1309570.jpg"
+    },
+    {
+      "kinopoiskId": 1008477,
+      "imdbId": "tt6334354",
+      "nameRu": "Отряд самоубийц: Миссия навылет",
+      "nameEn": null,
+      "nameOriginal": "The Suicide Squad",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 6.7,
+      "ratingImdb": 7.2,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1008477.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1008477.jpg"
+    },
+    {
+      "kinopoiskId": 1245524,
+      "imdbId": "tt9484998",
+      "nameRu": "Зависнуть в Палм-Спрингс",
+      "nameEn": null,
+      "nameOriginal": "Palm Springs",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Гонконг"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.3,
+      "ratingImdb": 7.4,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1245524.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1245524.jpg"
+    },
+    {
+      "kinopoiskId": 823956,
+      "imdbId": "tt3480822",
+      "nameRu": "Чёрная Вдова",
+      "nameEn": null,
+      "nameOriginal": "Black Widow",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 6.3,
+      "ratingImdb": 6.7,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/823956.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/823956.jpg"
+    },
+    {
+      "kinopoiskId": 1322389,
+      "imdbId": "tt11867066",
+      "nameRu": "Проект «Анна Николаевна»",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.5,
+      "ratingImdb": 6.3,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1322389.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1322389.jpg"
+    },
+    {
+      "kinopoiskId": 1379090,
+      "imdbId": "tt10954652",
+      "nameRu": "Время",
+      "nameEn": null,
+      "nameOriginal": "Old",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Япония"
+        },
+        {
+          "country": "Китай"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "ratingKinopoisk": 6.4,
+      "ratingImdb": 5.8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1379090.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1379090.jpg"
+    },
+    {
+      "kinopoiskId": 1227997,
+      "imdbId": "tt15296186",
+      "nameRu": "Мира",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1227997.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1227997.jpg"
+    },
+    {
+      "kinopoiskId": 1338480,
+      "imdbId": "tt11286314",
+      "nameRu": "Не смотрите наверх",
+      "nameEn": null,
+      "nameOriginal": "Don't Look Up",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.5,
+      "ratingImdb": 7.2,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1338480.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1338480.jpg"
+    },
+    {
+      "kinopoiskId": 1016160,
+      "imdbId": "tt3794354",
+      "nameRu": "Соник в кино",
+      "nameEn": null,
+      "nameOriginal": "Sonic the Hedgehog",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 6.7,
+      "ratingImdb": 6.5,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1016160.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1016160.jpg"
+    }
+  ]
+}

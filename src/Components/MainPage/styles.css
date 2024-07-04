@@ -1,5 +1,35 @@
+:root {
+  --global_marg: 60px;
+}
+
 body {
-  background: linear-gradient(to bottom, #2D0025 30%, #0F000C 70%);
+  background: linear-gradient(to bottom, #2d0025 30%, #0f000c 70%);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --global_marg: 40px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  :root {
+    --global_marg: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --global_marg: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  :root {
+    --global_marg: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  :root {
+    --global_marg: 10px;
+  }
 }/*# sourceMappingURL=styles.css.map */

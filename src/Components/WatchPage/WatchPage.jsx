@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
-import NavMinor from "../SearchPage/NavMinor/NavMinor";
 import Footer from "../MainPage/Footer/Footer";
 import { Context } from "../Context";
 import "./styles.css";
 import KinoboxPlayer from "./KinoboxPlayer";
 import { GoStarFill } from "react-icons/go";
+import Navbar from "../Navbar/Navbar";
 
 export default function WatchPage() {
   const { filmId } = useContext(Context);
@@ -33,7 +33,7 @@ export default function WatchPage() {
 
   return (
     <>
-      <NavMinor />
+      <Navbar />
       <section className="watch_page">
         <main className="watch_page">
           <div className="watch_page-film_info">

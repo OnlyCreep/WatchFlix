@@ -1,0 +1,583 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 1301710,
+      "imdbId": "tt10919420",
+      "nameRu": "Игра в кальмара",
+      "nameEn": null,
+      "nameOriginal": "Ojingeo geim",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 8,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1301710.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1301710.jpg"
+    },
+    {
+      "kinopoiskId": 1330171,
+      "imdbId": "tt12879418",
+      "nameRu": "История девятихвостого лиса",
+      "nameEn": null,
+      "nameOriginal": "Gumihodyeon",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 7.9,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1330171.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1330171.jpg"
+    },
+    {
+      "kinopoiskId": 1297211,
+      "imdbId": "tt11535228",
+      "nameRu": "Чрезвычайная ситуация",
+      "nameEn": null,
+      "nameOriginal": "Bisangseoneon",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 6.8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1297211.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1297211.jpg"
+    },
+    {
+      "kinopoiskId": 1398965,
+      "imdbId": "tt13274038",
+      "nameRu": "Истинная красота",
+      "nameEn": null,
+      "nameOriginal": "Yeosingangrim",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1398965.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1398965.jpg"
+    },
+    {
+      "kinopoiskId": 1045893,
+      "imdbId": "tt7035004",
+      "nameRu": "Мастер меча",
+      "nameEn": null,
+      "nameOriginal": "Geomgaek",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 7.5,
+      "ratingImdb": 6.8,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1045893.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1045893.jpg"
+    },
+    {
+      "kinopoiskId": 4402867,
+      "imdbId": "tt14979052",
+      "nameRu": "Счастье",
+      "nameEn": null,
+      "nameOriginal": "Haepiniseu",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.8,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4402867.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4402867.jpg"
+    },
+    {
+      "kinopoiskId": 1169291,
+      "imdbId": "tt15838850",
+      "nameRu": "Криминальный город 2",
+      "nameEn": null,
+      "nameOriginal": "Beomjoе dosi 2",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1169291.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1169291.jpg"
+    },
+    {
+      "kinopoiskId": 1278912,
+      "imdbId": "tt13721828",
+      "nameRu": "Эксперимент «Ведьма»",
+      "nameEn": null,
+      "nameOriginal": "Manyeo 2",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 6.9,
+      "ratingImdb": 6.3,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1278912.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1278912.jpg"
+    },
+    {
+      "kinopoiskId": 2045005,
+      "imdbId": "tt13669128",
+      "nameRu": "Однажды разрушение постучалось в мою дверь",
+      "nameEn": null,
+      "nameOriginal": "Eoneu nal uri jip hyeokgwaneuro myeolmangi deuleowatta",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.9,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/2045005.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/2045005.jpg"
+    },
+    {
+      "kinopoiskId": 4394779,
+      "imdbId": "tt16493854",
+      "nameRu": "Призрачный доктор",
+      "nameEn": null,
+      "nameOriginal": "Goseuteu dakteo",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 7.9,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4394779.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4394779.jpg"
+    },
+    {
+      "kinopoiskId": 4857811,
+      "imdbId": "tt20234568",
+      "nameRu": "Слабый герой",
+      "nameEn": null,
+      "nameOriginal": "Yakhan yeongung",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.5,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4857811.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4857811.jpg"
+    },
+    {
+      "kinopoiskId": 944043,
+      "imdbId": "tt4823776",
+      "nameRu": "Губка Боб в бегах",
+      "nameEn": null,
+      "nameOriginal": "The SpongeBob Movie: Sponge on the Run",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 6.3,
+      "ratingImdb": 5.9,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/944043.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/944043.jpg"
+    },
+    {
+      "kinopoiskId": 1271142,
+      "imdbId": "tt16529222",
+      "nameRu": "Малышка на драйве",
+      "nameEn": null,
+      "nameOriginal": "Teuksong",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": 6.4,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1271142.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1271142.jpg"
+    },
+    {
+      "kinopoiskId": 4880777,
+      "imdbId": "tt19713090",
+      "nameRu": "Киллер-хранитель",
+      "nameEn": null,
+      "nameOriginal": "Deo killeo: jukeodo doeneun ai",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 6.6,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4880777.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4880777.jpg"
+    },
+    {
+      "kinopoiskId": 1387128,
+      "imdbId": "tt13634792",
+      "nameRu": "Мышь",
+      "nameEn": null,
+      "nameOriginal": "Mauseu",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.7,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1387128.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1387128.jpg"
+    },
+    {
+      "kinopoiskId": 4453477,
+      "imdbId": "tt14965934",
+      "nameRu": "Акула: Начало",
+      "nameEn": null,
+      "nameOriginal": "Syakeu: deo bigining",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": 6.8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4453477.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4453477.jpg"
+    },
+    {
+      "kinopoiskId": 4961757,
+      "imdbId": "tt21364552",
+      "nameRu": "Криминальный город: Разборки в Пусане",
+      "nameEn": null,
+      "nameOriginal": "Beomjoe dosi 3",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.5,
+      "ratingImdb": 6.6,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4961757.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4961757.jpg"
+    },
+    {
+      "kinopoiskId": 1338255,
+      "imdbId": "tt11691684",
+      "nameRu": "Цветок зла",
+      "nameEn": null,
+      "nameOriginal": "Akui kkot",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.6,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1338255.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1338255.jpg"
+    },
+    {
+      "kinopoiskId": 1445078,
+      "imdbId": null,
+      "nameRu": "Три",
+      "nameEn": null,
+      "nameOriginal": "Three",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        },
+        {
+          "country": "Казахстан"
+        },
+        {
+          "country": "Узбекистан"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 6.3,
+      "ratingImdb": 5.8,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1445078.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1445078.jpg"
+    },
+    {
+      "kinopoiskId": 1387213,
+      "imdbId": "tt13400006",
+      "nameRu": "Королева Чорин",
+      "nameEn": null,
+      "nameOriginal": "Cheorin wanghu",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.6,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1387213.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1387213.jpg"
+    }
+  ]
+}

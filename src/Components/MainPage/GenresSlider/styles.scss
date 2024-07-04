@@ -1,0 +1,213 @@
+.genres_slider {
+  margin: auto;
+  color: white;
+  padding-left: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.genres_slider-title {
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  padding-left: 5vw;
+  font-family: "Inter";
+}
+
+.genres_slider-content {
+  display: flex;
+  width: 100%;
+  transition: transform 600ms ease-in-out;
+}
+
+.genres_content {
+  overflow: hidden;
+}
+
+.genres_slider-slide {
+  height: var(--size);
+  width: var(--size);
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.genres_slider-slide-posters {
+  display: flex;
+  align-items: center;
+}
+
+.genres_slider-slide-posters-elem {
+  height: var(--heightP);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 4;
+  position: relative;
+  transition: transform 300ms;
+  will-change: transform;
+}
+
+.genres_slider-slide-posters-elem:first-of-type {
+  transform: rotate(-10deg) translateY(25px);
+  right: -15%;
+  top: -15px;
+  z-index: 6;
+}
+
+.genres_slider-slide-posters-elem:last-of-type {
+  transform: rotate(10deg) translateY(25px);
+  left: -15%;
+  top: -15px;
+  z-index: 3;
+}
+
+.genres_slider-slide-posters-title {
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: 600;
+  color: white;
+}
+
+.genres_slider
+  .sliders_trd-content-arrows
+  .sliders_trd-content-arrows-elem.left,
+.genres_slider {
+  left: 4vw;
+  z-index: 40;
+}
+
+.sliders_trd-content-arrows .sliders_trd-content-arrows-elem.right {
+  right: 4vw;
+  z-index: 40;
+}
+
+.genres_slider:hover
+  .sliders_trd-content-arrows
+  .sliders_trd-content-arrows-elem.left,
+.genres_slider:hover
+  .sliders_trd-content-arrows
+  .sliders_trd-content-arrows-elem.right {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1025px) {
+  .genres_slider-slide:hover .genres_slider-slide-posters-elem:first-of-type {
+    transform: rotate(-20deg) translateX(-30px) translateY(20px);
+  }
+
+  .genres_slider-slide:hover .genres_slider-slide-posters-elem:last-of-type {
+    transform: rotate(20deg) translateX(30px) translateY(20px);
+  }
+
+  .genres_slider-slide:hover .genres_slider-slide-posters-elem:nth-child(2) {
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .genres_slider-slide-posters-elem {
+    border-radius: 10px;
+  }
+
+  .genres_slider-slide {
+    border-radius: 15px;
+  }
+
+  .genres_slider-slide-posters-title {
+    font-size: 20px;
+  }
+
+  .genres_slider-title {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .genres_slider {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .genres_slider-slide-posters-elem {
+    border-radius: 8px;
+  }
+
+  .genres_slider-slide {
+    border-radius: 10px;
+  }
+
+  .genres_slider-slide-posters-title {
+    font-size: 16px;
+  }
+
+  .genres_slider-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .genres_slider-slide {
+    border-radius: 10px;
+  }
+
+  .genres_slider-slide-posters-elem {
+    border-radius: 6px;
+  }
+
+  .genres_slider-slide-posters-title {
+    font-size: 12px;
+  }
+
+  .genres_slider-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .genres_slider-slide {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .genres_slider-slide-posters-elem {
+    border-radius: 6px;
+    height: 60px;
+  }
+
+  .genres_slider-slide-posters-title {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .genres_slider-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .genres_slider-slide-posters-elem {
+    border-radius: 6px;
+    height: 60px;
+  }
+
+  .genres_slider-title {
+    font-size: 12px;
+  }
+
+  .genres_slider-slide-posters-title {
+    font-weight: 300;
+  }
+}

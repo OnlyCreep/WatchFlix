@@ -1,0 +1,684 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 1318972,
+      "imdbId": "tt11083552",
+      "nameRu": "Гнев человеческий",
+      "nameEn": null,
+      "nameOriginal": "Wrath of Man",
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7.1,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1318972.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1318972.jpg",
+      "coverUrl": "https://viasat-small.cdnvideo.ru/viasat/production/contents/09f56bd7-c906-402f-bb5a-36a1cd2c0d56/backgrounds/59lsi85ju6vijrbdhhddy93ih6dd",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000179d1cc14e6c741017c7f7a2f15c2/orig"
+    },
+    {
+      "kinopoiskId": 4959134,
+      "imdbId": "tt23737556",
+      "nameRu": "По щучьему велению",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age6",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 6.2,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4959134.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4959134.jpg",
+      "coverUrl": "https://images.iptv.rt.ru/images/cm5a87jir4sqiatb38s0.jpg",
+      "logoUrl": "https://thumbs.dfs.ivi.ru/storage38/contents/6/6/8c430deedc2598d2a54928022d9271.png/x200/?q=85"
+    },
+    {
+      "kinopoiskId": 5047468,
+      "imdbId": null,
+      "nameRu": "Холоп 2",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age12",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 5.6,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5047468.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5047468.jpg",
+      "coverUrl": "https://www.acmodasi.pro/amdb/images/movie/o/f/son-of-a-rich-2-2024-8pXmBW.jpg",
+      "logoUrl": "https://api.start.ru/images/unsafe/filters:format(webp)/300106d3f0334db1b78a21bf4e45e42a/logotype_15x?w=640&q=75"
+    },
+    {
+      "kinopoiskId": 927898,
+      "imdbId": null,
+      "nameRu": "Переводчик",
+      "nameEn": null,
+      "nameOriginal": "The Covenant",
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Испания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.5,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/927898.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/927898.jpg",
+      "coverUrl": "https://avatars.dzeninfra.ru/get-zen_doc/8269145/pub_645c52f8fa5eaf4c78ecf858_645c53378b89190b003d549f/scale_1200",
+      "logoUrl": "https://thumbs.dfs.ivi.ru/storage5/contents/1/1/9febe3ae4434ece93ec46943db1e4c.png/x200/?q=85"
+    },
+    {
+      "kinopoiskId": 4647040,
+      "imdbId": "tt15939084",
+      "nameRu": "Король и Шут",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4647040.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4647040.jpg",
+      "coverUrl": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_666d40dae6db732f8e669a34_666d40f39c58ec2469c1ae9f/scale_1200",
+      "logoUrl": null
+    },
+    {
+      "kinopoiskId": 5304403,
+      "imdbId": "tt28429213",
+      "nameRu": "Слово пацана. Кровь на асфальте",
+      "nameEn": null,
+      "nameOriginal": null,
+       "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5304403.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5304403.jpg",
+      "coverUrl": "https://images.iptv.rt.ru/images/ckjq5kjir4sqiatav6dg.jpg",
+      "logoUrl": "https://api.start.ru/images/unsafe/filters:format(webp)/bd2fe8406b774cfdbe767c1f5ec56e4a/logotype_15x?w=640&q=75"
+    },
+    {
+      "kinopoiskId": 5249455,
+      "kinopoiskHDId": "031ee317f4b04b7eb6084959ab643cfc",
+      "imdbId": "tt27114092",
+      "nameRu": "Майор Гром: Игра",
+      "nameEn": null,
+      "nameOriginal": null,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5249455.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5249455.jpg",
+      "coverUrl": "https://kinotv.ru/upload/delight.webpconverter/upload/resize_cache/iblock/dba/1920_1080_2/qzurbk3r9ptmdsakxj3pgthkist6zb8k.jpg.webp?1716301037238282",
+      "logoUrl": "https://static.tildacdn.com/tild3732-3831-4037-a532-623063613935/Logo_MG_Packshot_Ani.png",
+      "reviewsCount": 0,
+      "ratingGoodReview": null,
+      "ratingGoodReviewVoteCount": 0,
+      "ratingKinopoisk": 7.2,
+      "ratingKinopoiskVoteCount": 0,
+      "ratingImdb": null,
+      "ratingImdbVoteCount": 0,
+      "ratingFilmCritics": null,
+      "ratingFilmCriticsVoteCount": 0,
+      "ratingAwait": 98,
+      "ratingAwaitCount": 51917,
+      "ratingRfCritics": null,
+      "ratingRfCriticsVoteCount": 0,
+      "webUrl": "https://www.kinopoisk.ru/film/5249455/",
+      "year": 2024,
+      "filmLength": 168,
+      "slogan": null,
+      "description": "Майор полиции Игорь Гром известен всему Санкт-Петербургу пробивным характером и непримиримой позицией по отношению к преступникам всех мастей. Неимоверная сила, аналитический склад ума и неподкупность — всё это делает майора Грома самым настоящим супергероем. Его жизнь идеальна: днём он ловит преступников вместе с напарником Димой Дубиным, а вечера проводит в компании журналистки Юлии Пчёлкиной. Полную идиллию прерывает появление в городе таинственного злодея, называющего себя Призраком. Он предлагает Грому сыграть в опасную игру, ставка в которой — жизни обычных людей.",
+      "shortDescription": "У бесстрашного защитника Петербурга — новый враг. Приключенческий экшен c Тихоном Жизневским в кино с 23 мая",
+      "editorAnnotation": "В кино с 23 мая",
+      "isTicketsAvailable": true,
+      "productionStatus": null,
+      "type": "FILM",
+      "ratingMpaa": null,
+      "ratingAgeLimits": "age16",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "startYear": null,
+      "endYear": null,
+      "serial": false,
+      "shortFilm": false,
+      "completed": false,
+      "hasImax": false,
+      "has3D": false,
+      "lastSync": "2024-05-20T10:21:56.826327"
+    },
+    {
+      "kinopoiskId": 1355059,
+      "imdbId": "tt12112298",
+      "nameRu": "Беспринципные",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 6.3,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1355059.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1355059.jpg",
+      "coverUrl": "https://images-s.kinorium.com/movie/poster/2359155/w1500_50977242.jpg",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017e6cfdc1ef7c20c1ab738be817f3/orig"
+    },
+    {
+      "kinopoiskId": 409424,
+      "imdbId": "tt1160419",
+      "nameRu": "Дюна",
+      "nameEn": null,
+      "nameOriginal": "Dune: Part One",
+      "ratingAgeLimits": "age12",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Венгрия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/409424.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/409424.jpg",
+      "coverUrl": "https://newcdn.igromania.ru/mnt/articles/3/c/f/d/e/f/31903/preview/050e0f52a1cb125b_original.webp",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017ede1a0d9f8bae88b8f757431b94/orig"
+    },
+    {
+      "kinopoiskId": 1392743,
+      "imdbId": null,
+      "nameRu": "Постучись в мою дверь",
+      "nameEn": null,
+      "nameOriginal": "Sen Çal Kapımı",
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Турция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.4,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1392743.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1392743.jpg",
+      "coverUrl": "https://pic.uma.media/cwebp/pic/cardimage/87/0f/870f12f0b3f839c83c6e636831e34e2d.jpg?size=1920&quality=90",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017f31ec5eb0a9a2db7adadc02a7b1/orig"
+    },
+    {
+      "kinopoiskId": 1405508,
+      "imdbId": null,
+      "nameRu": "Операция «Фортуна»: Искусство побеждать",
+      "nameEn": null,
+      "nameOriginal": "Operation Fortune: Ruse de Guerre",
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.1,
+      "ratingImdb": 6.3,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1405508.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1405508.jpg",
+      "coverUrl": "https://static3.go3.tv/scale/go3/webuploads/rest/upload/vod/5404596/images/19949897?dsth=1080&dstw=1920&srcmode=0&quality=65&type=1&srcx=1&srcy=1&srcw=1/1&srch=1/1",
+      "logoUrl": "https://htv-vsc.kion.ru:32124/CPS/images/universal/film/poster/202306/20230630/99/202306300640446148wn.png"
+    },
+    {
+      "kinopoiskId": 4542208,
+      "imdbId": "tt15325794",
+      "nameRu": "Вышка",
+      "nameEn": null,
+      "nameOriginal": "Fall",
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        }
+      ],
+      "ratingKinopoisk": 6.7,
+      "ratingImdb": 6.4,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4542208.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4542208.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000018383a5922c3947e7401cdf5f49de/orig",
+      "logoUrl": "https://thumbs.dfs.ivi.ru/storage23/contents/0/1/06f2eb923262088dbc4b416894c084.png/x200/?q=85"
+    },
+    {
+      "kinopoiskId": 1224067,
+      "imdbId": "tt10922010",
+      "nameRu": "Вампиры средней полосы",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1224067.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1224067.jpg",
+      "coverUrl": "https://images.iptv.rt.ru/images/ce29m23ir4ssk1203k2g.jpg",
+      "logoUrl": "https://api.start.ru/images/unsafe/filters:format(webp)/40053833c2e74d3ba4c7be5d48ee499b/logotype_15x?w=640&q=75"
+    },
+    {
+      "kinopoiskId": 4531254,
+      "imdbId": "tt15474794",
+      "nameRu": "Два холма",
+      "ratingAgeLimits": "age18",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4531254.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4531254.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000018a1a0784050f16afc0083740b298/orig",
+      "logoUrl": "https://api.start.ru/images/unsafe/filters:format(webp)/b27fa1d514ce4a18b51665e6944fd532/logotype_15x?w=640&q=75"
+    },
+    {
+      "kinopoiskId": 1405843,
+      "imdbId": "tt13266012",
+      "nameRu": "Пищеблок",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": 6,
+      "year": 2021,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1405843.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1405843.jpg",
+      "coverUrl": "https://www.film.ru/sites/default/files/filefield_paths/pische2.jpg",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017d0026e4ba12aaa4eb77a54e4289/orig"
+    },
+    {
+      "kinopoiskId": 1326397,
+      "imdbId": null,
+      "nameRu": "Батя",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 6.7,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1326397.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1326397.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a000001800b131e914ef69b9b828f841166/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a000001800b13083c5bf64a7fd5a4203e19/orig"
+    },
+    {
+      "kinopoiskId": 5078983,
+      "imdbId": "tt22530468",
+      "nameRu": "Мажор в Сочи",
+      "nameEn": null,
+      "nameOriginal": null,
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.1,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5078983.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5078983.jpg",
+      "coverUrl": "https://ruskino.ru/media/gallery/23500/EHNKdzjXsnByCQXtoUyt8WWAtep.jpg",
+      "logoUrl": null
+    },
+    {
+      "kinopoiskId": 775273,
+      "imdbId": "tt2948372",
+      "nameRu": "Душа",
+      "nameEn": null,
+      "nameOriginal": "Soul",
+      "ratingAgeLimits": "age6",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "музыка"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/775273.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/775273.jpg",
+      "coverUrl": "https://stoneforest.ru/wp-content/uploads/2021/01/soul-movie-2020-2.jpg",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000179e695b1277b8740b5bfcf77a6bf/orig"
+    },
+    {
+      "kinopoiskId": 804662,
+      "imdbId": "tt3228774",
+      "nameRu": "Круэлла",
+      "nameEn": null,
+      "nameOriginal": "Cruella",
+      "ratingAgeLimits": "age12",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Ирландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7.3,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/804662.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/804662.jpg",
+      "coverUrl": "https://images.iptv.rt.ru/images/c6u63v3ir4sslltt9vhg.jpg",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017ede1851f4a06c1b30a7fce95038/orig"
+    },
+    {
+      "kinopoiskId": 1199100,
+      "imdbId": "tt6264654",
+      "nameRu": "Главный герой",
+      "nameEn": null,
+      "nameOriginal": "Free Guy",
+      "ratingAgeLimits": "age18",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.4,
+      "ratingImdb": 7.1,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1199100.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1199100.jpg",
+      "coverUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4080549/pub_63b88d67bed7f6775867f193_63b88e4f8a0b0e3acdc509c6/scale_1200",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017fcecddf9df291d4555d325b9014/orig"
+    }
+  ]
+}

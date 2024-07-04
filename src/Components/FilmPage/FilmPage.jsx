@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import "./styles.css";
-import NavMinor from "../SearchPage/NavMinor/NavMinor";
 import Footer from "../MainPage/Footer/Footer";
 import { IoIosArrowDown } from "react-icons/io";
 import {
@@ -12,6 +11,7 @@ import FilmElem_simple from "./FilmGrid/FilmElem_simple";
 import FilmElem_sec from "./FilmGrid/FilmElem_sec";
 import FilmElem_trd from "./FilmGrid/FilmElem_trd";
 import { Context } from "../Context";
+import Navbar from "../Navbar/Navbar";
 
 export default function FilmPage() {
   const [type_page, setType] = useState(
@@ -89,7 +89,7 @@ export default function FilmPage() {
 
   return (
     <>
-      <NavMinor />
+      <Navbar />
       <section className="film">
         <div className="film-panel">
           <div className="film-panel-filter">

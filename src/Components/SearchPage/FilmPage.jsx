@@ -13,7 +13,7 @@ import FilmElem_trd from "./FilmGrid/FilmElem_trd";
 import { Context } from "../Context";
 import Navbar from "../Navbar/Navbar";
 
-export default function SerialPage() {
+export default function FilmPage() {
   const [type_page, setType] = useState(
     `${
       document.location.pathname == "/films"
@@ -29,6 +29,8 @@ export default function SerialPage() {
   const [gridPos, setGrid] = useState(0);
 
   const filterElem = useRef(null);
+
+  console.log(films);
 
   useEffect(() => {
     fetch(
