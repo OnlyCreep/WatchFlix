@@ -9,6 +9,11 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  overflow: hidden;
+}
+
+body {
+  transition: transform 600ms ease;
 }
 
 .navbar-opps {

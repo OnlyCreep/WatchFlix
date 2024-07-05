@@ -11,6 +11,7 @@ import WatchPage from "./WatchPage/WatchPage";
 export default function App() {
   const [films, setFilms] = useState([]);
   const [filmId, setPage] = useState(document.location.pathname.split("=")[1]);
+  const [panel, openPanel] = useState(false);
 
   useEffect(() => {
     fetch(
@@ -29,7 +30,7 @@ export default function App() {
   }, [null]);
 
   return (
-    <Context.Provider value={{ films, filmId, setPage }}>
+    <Context.Provider value={{ films, filmId, setPage, panel, openPanel }}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />

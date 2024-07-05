@@ -1,0 +1,581 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 5019944,
+      "imdbId": "tt23805348",
+      "nameRu": "Кибердеревня",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.4,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5019944.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5019944.jpg"
+    },
+    {
+      "kinopoiskId": 5249042,
+      "imdbId": "tt28751684",
+      "nameRu": "Папины дочки. Новые",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5249042.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5249042.jpg"
+    },
+    {
+      "kinopoiskId": 5321393,
+      "imdbId": null,
+      "nameRu": "Инспектор Гаврилов",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5321393.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5321393.jpg"
+    },
+    {
+      "kinopoiskId": 4951085,
+      "imdbId": null,
+      "nameRu": "Истории в кино: Однажды в парке",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "реальное ТВ"
+        }
+      ],
+      "ratingKinopoisk": 8.8,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "VIDEO",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4951085.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4951085.jpg"
+    },
+    {
+      "kinopoiskId": 5059049,
+      "imdbId": null,
+      "nameRu": "Телохранители",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5059049.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5059049.jpg"
+    },
+    {
+      "kinopoiskId": 5431615,
+      "imdbId": null,
+      "nameRu": "Чебурашка. Выходной",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5431615.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5431615.jpg"
+    },
+    {
+      "kinopoiskId": 4708000,
+      "imdbId": "tt21802794",
+      "nameRu": "Тётя Марта",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4708000.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4708000.jpg"
+    },
+    {
+      "kinopoiskId": 5216087,
+      "imdbId": null,
+      "nameRu": "День пажилого сурка",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5216087.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5216087.jpg"
+    },
+    {
+      "kinopoiskId": 4327116,
+      "imdbId": null,
+      "nameRu": "Дикие",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4327116.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4327116.jpg"
+    },
+    {
+      "kinopoiskId": 5283129,
+      "imdbId": null,
+      "nameRu": "Хамелеон",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "MINI_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5283129.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5283129.jpg"
+    },
+    {
+      "kinopoiskId": 5423568,
+      "imdbId": null,
+      "nameRu": "Большое шоу",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "реальное ТВ"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SHOW",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5423568.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5423568.jpg"
+    },
+    {
+      "kinopoiskId": 5267860,
+      "imdbId": "tt27694740",
+      "nameRu": "Импровизаторы",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "ток-шоу"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SHOW",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5267860.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5267860.jpg"
+    },
+    {
+      "kinopoiskId": 5149270,
+      "imdbId": "tt28236082",
+      "nameRu": "Волшебный участок",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5149270.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5149270.jpg"
+    },
+    {
+      "kinopoiskId": 5090291,
+      "imdbId": "tt28299344",
+      "nameRu": "Тут все свои",
+      "nameEn": null,
+      "nameOriginal": "",
+      "countries": [
+        {
+          "country": "Россия"
+        },
+        {
+          "country": "Сербия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5090291.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5090291.jpg"
+    },
+    {
+      "kinopoiskId": 4363864,
+      "imdbId": null,
+      "nameRu": "Мажор 4",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4363864.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4363864.jpg"
+    },
+    {
+      "kinopoiskId": 2000124,
+      "imdbId": null,
+      "nameRu": "Каникулы",
+      "nameEn": null,
+      "nameOriginal": "Intermission",
+      "countries": [
+        {
+          "country": "Финляндия"
+        },
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/2000124.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/2000124.jpg"
+    },
+    {
+      "kinopoiskId": 5027758,
+      "imdbId": null,
+      "nameRu": "Кто там?",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5027758.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5027758.jpg"
+    },
+    {
+      "kinopoiskId": 5236800,
+      "imdbId": null,
+      "nameRu": "Истории в кино: Притворись моей",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5236800.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5236800.jpg"
+    },
+    {
+      "kinopoiskId": 5331913,
+      "imdbId": null,
+      "nameRu": "Безбашенная",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5331913.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5331913.jpg"
+    },
+    {
+      "kinopoiskId": 5134547,
+      "imdbId": null,
+      "nameRu": "Петелька и Крючочек",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5134547.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5134547.jpg"
+    },
+    {
+      "kinopoiskId": 1115020,
+      "imdbId": "tt15271904",
+      "nameRu": "Пресловутое поколение: Зелёный слоник 2",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": 8.1,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1115020.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1115020.jpg"
+    },
+    {
+      "kinopoiskId": 4290686,
+      "imdbId": null,
+      "nameRu": "Напарники",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4290686.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4290686.jpg"
+    }
+  ]
+}

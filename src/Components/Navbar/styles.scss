@@ -7,6 +7,11 @@
   left: 0;
   z-index: 99;
   user-select: none;
+  overflow: hidden;
+}
+
+body {
+  transition: transform 600ms ease;
 }
 
 .navbar-opps {
@@ -168,7 +173,6 @@
   .navbar-opps-front_opps {
     gap: 15px;
   }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -234,31 +238,31 @@
 }
 
 @media screen and (max-width: 320px) {
-    .navbar {
-      height: 35px;
-    }
-  
-    .navbar-opps-server_opps {
-      gap: 20px;
-      align-items: center;
-    }
-  
-    .navbar-opps-front_opps-logo {
-      width: 120px;
-    }
-  
-    .navbar-opps-server_opps-auth_opp img {
-      height: 18px;
-      width: 18px;
-    }
-  
-    .search {
-      height: 16px;
-      width: 16px;
-    }
-  
-    .burger_menu {
-      width: 20px;
-      height: 18px;
-    }
+  .navbar {
+    height: 35px;
   }
+
+  .navbar-opps-server_opps {
+    gap: 20px;
+    align-items: center;
+  }
+
+  .navbar-opps-front_opps-logo {
+    width: 120px;
+  }
+
+  .navbar-opps-server_opps-auth_opp img {
+    height: 18px;
+    width: 18px;
+  }
+
+  .search {
+    height: 16px;
+    width: 16px;
+  }
+
+  .burger_menu {
+    width: 20px;
+    height: 18px;
+  }
+}

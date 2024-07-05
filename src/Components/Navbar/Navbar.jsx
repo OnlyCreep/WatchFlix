@@ -1,11 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import { BiBody } from "react-icons/bi";
+import { Context } from "../Context";
 
-export default function Navbar() {
+export default function Navbar(props) {
   const [mobile, setMobile] = useState(window.innerWidth <= 768 ? true : false);
+  const { panel, openPanel } = useContext(Context);
 
   window.addEventListener("resize", () => {
+    openPanel(false);
+
     if (window.innerWidth <= 768) setMobile(true);
     else setMobile(false);
   });
@@ -51,6 +56,7 @@ export default function Navbar() {
                 src="/images/burger_menu.svg"
                 alt=""
                 className="burger_menu"
+                onClick={() => openPanel(true)}
               />
             </>
           )}

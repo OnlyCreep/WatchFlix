@@ -8,6 +8,104 @@ body {
   background-repeat: no-repeat;
 }
 
+.main_cover,
+.panel_mobile {
+  transition: transform 600ms;
+}
+
+.main_cover.bias {
+  transform: translateX(-40vw);
+}
+
+.panel_cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  height: 100vh;
+  width: 100vw;
+  transition-property: opacity, visibility;
+  transition-duration: 600ms;
+  visibility: hidden;
+  background-color: #0f000c;
+  opacity: 0;
+  z-index: 99;
+}
+
+.panel_cover.active {
+  visibility: visible;
+  opacity: 0.2;
+}
+
+.panel_mobile {
+  color: white;
+  position: fixed;
+  background-color: #080107;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 40vw;
+  z-index: 199;
+  transform: translateX(40vw);
+  font-family: "Inter";
+}
+
+.panel_mobile.active {
+  transform: translateX(0);
+}
+
+.panel_mobile-sign_n_cross {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.cross {
+  font-size: 24px;
+}
+
+.sign_inPanel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sign_inPanel .login {
+  font-size: 20px;
+}
+
+.panel_mobile-opps {
+  width: 90%;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.panel_mobile-opps a {
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+.panel_mobile-opps a.active {
+  border-left: 2px solid white;
+}
+
+.panel_mobile hr {
+  width: 100%;
+  background-color: #25001f;
+}
+
 @media screen and (max-width: 1440px) {
   :root {
     --global_marg: 40px;
