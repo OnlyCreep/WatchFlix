@@ -72,6 +72,8 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+  color: white;
+  text-decoration: none;
 }
 
 .sign_inPanel .login {
@@ -125,9 +127,29 @@ body {
   :root {
     --global_marg: 15px;
   }
+  .panel_mobile {
+    width: 60vw;
+    transform: translateX(60vw);
+  }
+  .main_cover.bias {
+    transform: translateX(-60vw);
+  }
+  .panel_mobile-sign_n_cross {
+    height: 40px;
+  }
 }
 @media screen and (max-width: 320px) {
   :root {
     --global_marg: 10px;
+  }
+  .panel_mobile {
+    width: 80vw;
+    transform: translateX(80vw);
+  }
+  .main_cover.bias {
+    transform: translateX(-80vw);
+  }
+  .panel_mobile-sign_n_cross {
+    height: 35px;
   }
 }/*# sourceMappingURL=styles.css.map */

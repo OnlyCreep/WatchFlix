@@ -8,8 +8,9 @@ import GenresSlider from "./GenresSlider/GenresSlider";
 import MainPoster from "./MainPoster/MainPoster";
 import { RxCross2 } from "react-icons/rx";
 import { LuLogIn } from "react-icons/lu";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Context } from "../Context";
+import Mobilepanel from "../MobilePanel/Mobilepanel";
 
 export default function MainPage() {
   document.title = "WatchFlix - главная";
@@ -20,6 +21,10 @@ export default function MainPage() {
   });
 
   const { panel, openPanel } = useContext(Context);
+
+  useEffect(()=>{
+    openPanel(false)
+  }, [null])
 
   return (
     <>
@@ -82,29 +87,7 @@ export default function MainPage() {
         </section>
         <Footer />
       </div>
-      <div
-        className={`panel_cover ${panel ? "active" : ""}`}
-        onClick={() => {
-          openPanel(false);
-        }}
-      ></div>
-      <aside className={`panel_mobile ${panel ? "active" : ""}`}>
-        <div className="panel_mobile-sign_n_cross">
-          <RxCross2 className="cross" onClick={() => openPanel(false)} />
-          <span className="sign_inPanel">
-            Войти
-            <LuLogIn className="login" />
-          </span>
-        </div><hr />
-        <ul className="panel_mobile-opps">
-          <Link to={"/"}>Главная</Link>
-          <Link to={"/films"}>Фильмы</Link>
-          <Link to={"/films"}>Сериалы</Link>
-          <Link to={"/films"}>Детям</Link>
-          <Link to={"/films"}>Спорт</Link>
-          <Link to={"/films"}>Новости</Link>
-        </ul>
-      </aside>
+<Mobilepanel />
     </>
   );
 }

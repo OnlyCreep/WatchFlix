@@ -12,6 +12,7 @@ import FilmElem_sec from "./FilmGrid/FilmElem_sec";
 import FilmElem_trd from "./FilmGrid/FilmElem_trd";
 import { Context } from "../Context";
 import Navbar from "../Navbar/Navbar";
+import Mobilepanel from "../MobilePanel/Mobilepanel";
 
 export default function FilmPage() {
   const [type_page, setType] = useState(
@@ -21,6 +22,8 @@ export default function FilmPage() {
         : "POPULAR_SERIES"
     }`
   );
+
+  const { panel, openPanel } = useContext(Context);
 
   const [filterShown, showFilter] = useState(false);
   const [filter_opp, setFilter] = useState("date");
@@ -89,113 +92,131 @@ export default function FilmPage() {
 
   return (
     <>
-      <Navbar />
-      <section className="film">
-        <div className="film-panel">
-          <div className="film-panel-filter">
-            Сортировка по:{" "}
-            <ul
-              className="film-panel-filter-elem"
-              onClick={(e) => {
-                showFilter(!filterShown);
-              }}
-              ref={filterElem}
-            >
-              <li
-                className="currentOpp"
-                style={{ backgroundColor: `${filterShown ? "#ac008f" : ""}` }}
+      {" "}
+      <div className={`main_cover ${panel ? "bias" : ""}`}>
+        <Navbar />
+        <section className="film">
+          <div className="film-panel">
+            <div className="film-panel-filter">
+              Сортировка по:{" "}
+              <ul
+                className="film-panel-filter-elem"
+                onClick={(e) => {
+                  showFilter(!filterShown);
+                }}
+                ref={filterElem}
               >
-                {filterConv[filter_opp]}
-                <IoIosArrowDown />
-              </li>
-              {filterShown && (
-                <div className="film-panel-filter-list">
-                  <li
-                    onClick={(e) => {
-                      if (filterObj[e.currentTarget.innerText] != filter_opp) {
-                        setFilter(filterObj[e.currentTarget.innerText]);
-                        sortFilter(filterObj[e.currentTarget.innerText]);
-                      }
-                    }}
-                    style={{
-                      backgroundColor: `${
-                        filterObj["Дате выпуска"] == filter_opp ? "#ac008f" : ""
-                      }`,
-                    }}
-                  >
-                    Дате выпуска
-                  </li>
-                  <li
-                    onClick={(e) => {
-                      if (filterObj[e.currentTarget.innerText] != filter_opp) {
-                        setFilter(filterObj[e.currentTarget.innerText]);
-                        console.log(filter_opp);
-                        console.log(filterObj[e.currentTarget.innerText]);
-                        sortFilter(filterObj[e.currentTarget.innerText]);
-                      }
-                    }}
-                    style={{
-                      backgroundColor: `${
-                        filterObj["Рейтингу"] == filter_opp ? "#ac008f" : ""
-                      }`,
-                    }}
-                  >
-                    Рейтингу
-                  </li>
-                  <li
-                    onClick={(e) => {
-                      if (filterObj[e.currentTarget.innerText] != filter_opp) {
-                        setFilter(filterObj[e.currentTarget.innerText]);
-                        sortFilter(filterObj[e.currentTarget.innerText]);
-                      }
-                    }}
-                    style={{
-                      backgroundColor: `${
-                        filterObj["Названию"] == filter_opp ? "#ac008f" : ""
-                      }`,
-                    }}
-                  >
-                    Названию
-                  </li>
-                </div>
-              )}
-            </ul>
+                <li
+                  className="currentOpp"
+                  style={{ backgroundColor: `${filterShown ? "#ac008f" : ""}` }}
+                >
+                  {filterConv[filter_opp]}
+                  <IoIosArrowDown />
+                </li>
+                {filterShown && (
+                  <div className="film-panel-filter-list">
+                    <li
+                      onClick={(e) => {
+                        if (
+                          filterObj[e.currentTarget.innerText] != filter_opp
+                        ) {
+                          setFilter(filterObj[e.currentTarget.innerText]);
+                          sortFilter(filterObj[e.currentTarget.innerText]);
+                        }
+                      }}
+                      style={{
+                        backgroundColor: `${
+                          filterObj["Дате выпуска"] == filter_opp
+                            ? "#ac008f"
+                            : ""
+                        }`,
+                      }}
+                    >
+                      Дате выпуска
+                    </li>
+                    <li
+                      onClick={(e) => {
+                        if (
+                          filterObj[e.currentTarget.innerText] != filter_opp
+                        ) {
+                          setFilter(filterObj[e.currentTarget.innerText]);
+                          console.log(filter_opp);
+                          console.log(filterObj[e.currentTarget.innerText]);
+                          sortFilter(filterObj[e.currentTarget.innerText]);
+                        }
+                      }}
+                      style={{
+                        backgroundColor: `${
+                          filterObj["Рейтингу"] == filter_opp ? "#ac008f" : ""
+                        }`,
+                      }}
+                    >
+                      Рейтингу
+                    </li>
+                    <li
+                      onClick={(e) => {
+                        if (
+                          filterObj[e.currentTarget.innerText] != filter_opp
+                        ) {
+                          setFilter(filterObj[e.currentTarget.innerText]);
+                          sortFilter(filterObj[e.currentTarget.innerText]);
+                        }
+                      }}
+                      style={{
+                        backgroundColor: `${
+                          filterObj["Названию"] == filter_opp ? "#ac008f" : ""
+                        }`,
+                      }}
+                    >
+                      Названию
+                    </li>
+                  </div>
+                )}
+              </ul>
+            </div>
+            <div className="film-panel-filter-grid">
+              <TfiLayoutListThumb
+                className={`film-panel-filter-grid-content ${
+                  gridPos == 0 ? "active" : ""
+                }`}
+                onClick={() => setGrid(0)}
+              />
+              <TfiLayoutGrid2Alt
+                className={`film-panel-filter-grid-content ${
+                  gridPos == 1 ? "active" : ""
+                }`}
+                onClick={() => setGrid(1)}
+              />
+              <TfiLayoutGrid3Alt
+                className={`film-panel-filter-grid-content ${
+                  gridPos == 2 ? "active" : ""
+                }`}
+                onClick={() => setGrid(2)}
+              />
+            </div>
           </div>
-          <div className="film-panel-filter-grid">
-            <TfiLayoutListThumb
-              className={`film-panel-filter-grid-content ${
-                gridPos == 0 ? "active" : ""
-              }`}
-              onClick={() => setGrid(0)}
-            />
-            <TfiLayoutGrid2Alt
-              className={`film-panel-filter-grid-content ${
-                gridPos == 1 ? "active" : ""
-              }`}
-              onClick={() => setGrid(1)}
-            />
-            <TfiLayoutGrid3Alt
-              className={`film-panel-filter-grid-content ${
-                gridPos == 2 ? "active" : ""
-              }`}
-              onClick={() => setGrid(2)}
-            />
-          </div>
-        </div>
-        <hr />
-        <main
-          className={`film-content ${
-            gridPos == 0 ? "" : gridPos == 1 ? "sec" : gridPos == 2 ? "trd" : ""
-          }`}
-        >
-          {gridPos == 0 &&
-            films.map((el) => <FilmElem_simple value={{ el }} />)}
-          {gridPos == 1 && films.map((el) => <FilmElem_sec value={{ el }} />)}
-          {gridPos == 2 && films.map((el) => <FilmElem_trd value={{ el }} />)}
-        </main>
-        <div className="page_slider"></div>
-      </section>
-      <Footer />
+          <hr />
+          <main
+            className={`film-content ${
+              gridPos == 0
+                ? ""
+                : gridPos == 1
+                ? "sec"
+                : gridPos == 2
+                ? "trd"
+                : ""
+            }`}
+          >
+            {gridPos == 0 &&
+              films.map((el) => <FilmElem_simple value={{ el }} />)}
+            {gridPos == 1 && films.map((el) => <FilmElem_sec value={{ el }} />)}
+            {gridPos == 2 && films.map((el) => <FilmElem_trd value={{ el }} />)}
+          </main>
+          <div className="page_slider"></div>
+        </section>
+        <Footer />
+      </div>
+      <Mobilepanel />
     </>
   );
 }

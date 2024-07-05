@@ -30,8 +30,8 @@ export default function Navbar(props) {
               <Link to={"/films"}>Фильмы</Link>
               <Link to={"/serials"}>Сериалы</Link>
               <Link to={"/for-children"}>Детям</Link>
-              <Link to={"/sign"}>Спорт</Link>
-              <Link to={"/sign"}>Новости</Link>
+              <Link to={"/sport"}>Спорт</Link>
+              <Link to={"/news"}>Новости</Link>
             </>
           )}
         </aside>
