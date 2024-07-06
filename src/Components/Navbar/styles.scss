@@ -228,6 +228,14 @@ body {
     height: 55px;
   }
 
+  .navbar-cover {
+    top: 58px;
+  }
+  
+  .navbar-cover.active {
+    top: 55px;
+  }
+
   .navbar-opps-server_opps {
     gap: 40px;
   }
@@ -342,6 +350,14 @@ body {
 
   .navbar {
     height: 45px;
+  }
+
+  .navbar-cover {
+    top: 48px;
+  }
+  
+  .navbar-cover.active {
+    top: 45px;
   }
 
   .navbar-opps-front_opps-logo {
@@ -467,6 +483,14 @@ body {
     height: 50px;
   }
 
+  .navbar-cover {
+    top: 53px;
+  }
+  
+  .navbar-cover.active {
+    top: 50px;
+  }
+
   .navbar-opps-front_opps-logo {
     width: 150px;
   }
@@ -557,6 +581,20 @@ body {
       height: 100vh;
     }
   }
+
+  @keyframes titleAnim {
+    from {
+      transform: translateY(-200vh);
+      margin-bottom: 100px;
+      row-gap: 100px;
+    }
+
+    to {
+      transform: translateY(0);
+      margin-bottom: 0;
+      row-gap: 10px;
+    }
+  }
 }
 
 
@@ -590,6 +628,14 @@ body {
 @media screen and (max-width: 480px) {
   .navbar {
     height: 40px;
+  }
+
+  .navbar-cover {
+    top: 43px;
+  }
+  
+  .navbar-cover.active {
+    top: 40px;
   }
 
   .searchPanel-content-films-elem-poster {
@@ -627,11 +673,6 @@ body {
     width: 20px;
   }
 
-  .search {
-    height: 18px;
-    width: 18px;
-  }
-
   .burger_menu {
     width: 22px;
     height: 18px;
@@ -647,6 +688,14 @@ body {
     height: 35px;
   }
 
+  .navbar-cover {
+    top: 38px;
+  }
+  
+  .navbar-cover.active {
+    top: 35px;
+  }
+
   .navbar-opps-server_opps {
     gap: 20px;
     align-items: center;
@@ -654,16 +703,6 @@ body {
 
   .navbar-opps-front_opps-logo {
     width: 120px;
-  }
-
-  .navbar-opps-server_opps-auth_opp img {
-    height: 18px;
-    width: 18px;
-  }
-
-  .search {
-    height: 16px;
-    width: 16px;
   }
 
   .burger_menu {
