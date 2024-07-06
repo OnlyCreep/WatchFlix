@@ -1,0 +1,222 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 5102255,
+      "imdbId": "tt22022452",
+      "nameRu": "Головоломка 2",
+      "nameEn": null,
+      "nameOriginal": "Inside Out 2",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5102255.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5102255.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Головной отдел мозга Райли внезапно подвергается капитальному ремонту в тот момент, когда необходимо освободить место для чего-то совершенно неожиданного: новых эмоций.\nРадость, Печаль, Гнев, Страх и Брезгливость, которые уже давно успешно руководят эмоциональными процессами, не знают, что и чувствовать, когда появляется некая… Тревожность. И похоже, не только она.",
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 1316601,
+      "imdbId": "tt11198330",
+      "nameRu": "Дом Дракона",
+      "nameEn": null,
+      "nameOriginal": "House of the Dragon",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.4,
+      "year": 2022,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1316601.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1316601.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001824a6fac3c516402b098cb0631ce/orig",
+      "logoUrl": null,
+      "description": "О борьбе за власть между двумя ветвями дома Таргариенов.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 460586,
+      "imdbId": "tt1190634",
+      "nameRu": "Пацаны",
+      "nameEn": null,
+      "nameOriginal": "The Boys",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.7,
+      "year": 2019,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/460586.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/460586.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c0791e438d10a65d3d63c4381b9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a00000177bb06c2c5827c6e25944e2f31fb/orig",
+      "description": "Действие сериала разворачивается в мире, где существуют супергерои. Именно они являются настоящими звездами. Их все знают и обожают. Но за идеальным фасадом скрывается гораздо более мрачный мир наркотиков и секса, а большинство героев — в жизни не самые приятные люди. Противостоит им отряд, неофициально известный как «Пацаны».",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5249455,
+      "imdbId": "tt27114092",
+      "nameRu": "Майор Гром: Игра",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5249455.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5249455.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000018ef405da511b723784ddfb1fcded/orig",
+      "logoUrl": null,
+      "description": "Майор полиции Игорь Гром известен всему Санкт-Петербургу пробивным характером и непримиримой позицией по отношению к преступникам всех мастей. Неимоверная сила, аналитический склад ума и неподкупность — всё это делает майора Грома самым настоящим супергероем. Его жизнь идеальна: днём он ловит преступников вместе с напарником Димой Дубиным, а вечера проводит в компании журналистки Юлии Пчёлкиной. Полную идиллию прерывает появление в городе таинственного злодея, называющего себя Призраком. Он предлагает Грому сыграть в опасную игру, ставка в которой — жизни обычных людей.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 4968810,
+      "imdbId": "tt17279496",
+      "nameRu": "Падение империи",
+      "nameEn": null,
+      "nameOriginal": "Civil War",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.2,
+      "ratingImdb": 7.6,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4968810.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4968810.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Национальная гвардия Калифорнии и Техаса при поддержке боевой техники и авиации штурмуют столицу. Белый дом вот-вот падет. Группа журналистов пытается добраться до пылающего Вашингтона, чтобы взять последнее интервью у президента некогда Соединенных Штатов Америки. Но в стране, где царит хаос, нет ничего дороже литра бензина и ничего дешевле, чем человеческая жизнь.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4414587,
+      "imdbId": "tt5177120",
+      "nameRu": "Министерство неджентльменских дел",
+      "nameEn": null,
+      "nameOriginal": "The Ministry of Ungentlemanly Warfare",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Турция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 7.1,
+      "ratingImdb": 7.3,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4414587.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4414587.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000018f3e89a200cf1fd5a46d92eb7fc5/orig",
+      "logoUrl": null,
+      "description": "1942 год, Великобритания. Они — лучшие из лучших. Отпетые авантюристы и первоклассные спецы, привыкшие действовать в одиночку. Но когда на кону стоит судьба всего мира, им приходится объединиться в сверхсекретное боевое подразделение и отправиться на выполнение дерзкой миссии против нацистов. Теперь их дело — война, и вести они её будут совершенно не по-джентльменски.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainPage from "./MainPage/MainPage";
 import { Context } from "./Context";
-import SearchPage from "./SearchPage/SearchPage";
 import SignPage from "./SignPage/SignPage";
 import FilmPage from "./FilmPage/FilmPage";
 import SerialPage from "./SerialPage/FilmPage";
@@ -12,6 +11,11 @@ export default function App() {
   const [films, setFilms] = useState([]);
   const [filmId, setPage] = useState(document.location.pathname.split("=")[1]);
   const [panel, openPanel] = useState(false);
+
+  useEffect(()=>{
+    openPanel(false)
+    document.body.style.overflow = "visible"
+  }, [null])
 
   useEffect(() => {
     fetch(
@@ -34,7 +38,6 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/search" element={<SearchPage />} />
           <Route path="/sign" element={<SignPage />} />
           <Route path="/films" element={<FilmPage />} />
           <Route path="/serials" element={<SerialPage />} />

@@ -48,6 +48,7 @@ body {
   z-index: 199;
   transform: translateX(40vw);
   font-family: "Inter";
+  display: none;
 }
 
 .panel_mobile.active {
@@ -121,6 +122,9 @@ body {
 @media screen and (max-width: 768px) {
   :root {
     --global_marg: 20px;
+  }
+  .panel_mobile {
+    display: block;
   }
 }
 @media screen and (max-width: 480px) {

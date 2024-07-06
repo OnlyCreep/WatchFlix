@@ -15,16 +15,7 @@ import Mobilepanel from "../MobilePanel/Mobilepanel";
 export default function MainPage() {
   document.title = "WatchFlix - главная";
 
-  useEffect(() => {
-    if (panel) document.body.style.overflow = "hidden";
-    else document.body.style.overflow = "visible";
-  });
-
   const { panel, openPanel } = useContext(Context);
-
-  useEffect(()=>{
-    openPanel(false)
-  }, [null])
 
   return (
     <>
