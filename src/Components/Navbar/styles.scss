@@ -165,6 +165,42 @@ body {
   font-weight: 500;
   transform: translateY(-100vh);
   animation: titleAnim 600ms 500ms both;
+  display: flex;
+  align-items: center;
+}
+
+.loading {
+  display: flex;
+  gap: 6vw;
+  justify-content: center;
+}
+
+.loading-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.loading-circle:nth-child(1) {
+  animation-duration: 1500ms;
+  animation-name: loadingAnim;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+}
+
+.loading-circle:nth-child(2) {
+  animation-duration: 1500ms;
+  animation-name: loadingAnim;
+  animation-delay: 500ms;
+  animation-iteration-count: infinite;
+}
+
+.loading-circle:nth-child(3) {
+  animation-duration: 1500ms;
+  animation-name: loadingAnim;
+  animation-delay: 1000ms;
+  animation-iteration-count: infinite;
 }
 
 .searchPanel-content-films {
@@ -199,6 +235,23 @@ body {
   padding: 0 10px;
 }
 
+@keyframes loadingAnim {
+  0% {
+    transform: translateY(0);
+    background-color: white;
+  }
+
+  50% {
+    transform: translateY(-2vw);
+    background-color: #979797;
+  }
+
+  100% {
+    transform: translateY(0);
+    background-color: white;
+  }
+}
+
 @keyframes searchPanelAnim {
   from {
     height: 0;
@@ -231,7 +284,7 @@ body {
   .navbar-cover {
     top: 58px;
   }
-  
+
   .navbar-cover.active {
     top: 55px;
   }
@@ -355,7 +408,7 @@ body {
   .navbar-cover {
     top: 48px;
   }
-  
+
   .navbar-cover.active {
     top: 45px;
   }
@@ -486,7 +539,7 @@ body {
   .navbar-cover {
     top: 53px;
   }
-  
+
   .navbar-cover.active {
     top: 50px;
   }
@@ -572,6 +625,28 @@ body {
     overflow-y: visible;
   }
 
+  .loading-circle {
+    height: 35px;
+    width: 35px;
+  }
+
+  @keyframes loadingAnim {
+    0% {
+      transform: translateY(0);
+      background-color: white;
+    }
+  
+    50% {
+      transform: translateY(-4vw);
+      background-color: #979797;
+    }
+  
+    100% {
+      transform: translateY(0);
+      background-color: white;
+    }
+  }
+
   @keyframes searchPanelAnim {
     from {
       height: 0;
@@ -595,8 +670,8 @@ body {
       row-gap: 10px;
     }
   }
+  
 }
-
 
 @media screen and (max-width: 630px) {
   .searchPanel-content-films-elem-poster {
@@ -633,7 +708,7 @@ body {
   .navbar-cover {
     top: 43px;
   }
-  
+
   .navbar-cover.active {
     top: 40px;
   }
@@ -677,6 +752,28 @@ body {
     width: 22px;
     height: 18px;
   }
+
+  .loading-circle {
+    height: 30px;
+    width: 30px;
+  }
+
+  @keyframes loadingAnim {
+    0% {
+      transform: translateY(0);
+      background-color: white;
+    }
+  
+    50% {
+      transform: translateY(-5vw);
+      background-color: #979797;
+    }
+  
+    100% {
+      transform: translateY(0);
+      background-color: white;
+    }
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -691,7 +788,7 @@ body {
   .navbar-cover {
     top: 38px;
   }
-  
+
   .navbar-cover.active {
     top: 35px;
   }
@@ -708,5 +805,27 @@ body {
   .burger_menu {
     width: 20px;
     height: 18px;
+  }
+
+  .loading-circle {
+    height: 25px;
+    width: 25px;
+  }
+
+  @keyframes loadingAnim {
+    0% {
+      transform: translateY(0);
+      background-color: white;
+    }
+  
+    50% {
+      transform: translateY(-5vw);
+      background-color: #979797;
+    }
+  
+    100% {
+      transform: translateY(0);
+      background-color: white;
+    }
   }
 }
