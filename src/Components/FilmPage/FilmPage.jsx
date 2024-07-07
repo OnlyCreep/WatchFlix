@@ -6,6 +6,8 @@ import Footer from "../MainPage/Footer/Footer";
 export default function FilmPage() {
   const [films, setFilms] = useState([]);
 
+  useEffect(() => (document.body.style.overflow = "visible"), [null]);
+
   useEffect(() => {
     fetch(
       "https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=TOP_POPULAR_MOVIES&page=1",
@@ -42,7 +44,10 @@ export default function FilmPage() {
       </header>
       <main className="film_page_main">
         {films.map((el) => (
-          <Link to={`/film&id=${el.kinopoiskId}`} className="film_page_main-elem">
+          <Link
+            to={`/film&id=${el.kinopoiskId}`}
+            className="film_page_main-elem"
+          >
             <div
               className="film_page_main-elem-poster"
               style={{ "--posterUrl": `url(${el.posterUrl})` }}
