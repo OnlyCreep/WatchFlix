@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import Footer from "../MainPage/Footer/Footer";
+import {Context} from "../Context"
 
 export default function FilmPage() {
   const [films, setFilms] = useState([]);
+  const {setPage} = useContext(Context)
 
-  useEffect(() => (document.body.style.overflow = "visible"), [null]);
+  useEffect(() => {document.body.style.overflow = "visible"}, [null]);
 
   useEffect(() => {
     fetch(
@@ -45,6 +47,7 @@ export default function FilmPage() {
       <main className="film_page_main">
         {films.map((el) => (
           <Link
+          onClick={()=>setPage(el.kinopoiskId)}
             to={`/film&id=${el.kinopoiskId}`}
             className="film_page_main-elem"
           >
