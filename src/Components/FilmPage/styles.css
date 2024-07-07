@@ -1,514 +1,258 @@
-body {
-  background: #1d0018;
-}
-
-hr {
-  width: 95%;
-  margin: auto;
-  border: none;
-  border-top: 1px solid rgba(24, 0, 20, 0.4745098039);
-}
-
-.film {
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-  background-color: #2c0025;
-  color: white;
-}
-
-.film-panel {
-  padding: 20px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-.film-panel-filter {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-}
-
-.film-panel-filter-elem {
-  list-style-type: none;
-  width: -moz-max-content;
-  width: max-content;
-  outline: none;
-  font-size: 20px;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.film-panel-filter-list {
-  position: absolute;
-  margin-top: 15px;
-  width: -moz-max-content;
-  width: max-content;
-  background-color: #c500a4;
-  border-radius: 5px;
-}
-
-.film-panel-filter-list li {
-  list-style-type: none;
-  outline: none;
-  padding: 8px 20px;
-  font-size: 20px;
-  color: white;
-  transition: background-color 200ms;
-  border-radius: 5px;
-}
-
-.film-panel-filter-list li:hover {
-  background-color: #b60098;
-  border-radius: 5px;
-}
-
-.currentOpp {
-  display: flex;
-  align-items: center;
-  background-color: #c500a4;
-  padding: 8px 20px;
-  border-radius: 5px;
-  transition: background-color 200ms;
-}
-
-.currentOpp:hover {
-  background-color: #910179;
-}
-
-.currentOpp:active {
-  background-color: #740060;
-}
-
-.search_part-films-elem-funcs-inlike {
-  background-color: #2c0025;
-}
-
-.film-content {
-  width: 90%;
-  margin: auto;
-  margin-top: 50px;
-  padding-bottom: 100px;
-}
-
-.film-panel-filter-grid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 150px;
-}
-
-.film-panel-filter-grid-content {
-  cursor: pointer;
-  color: #630052;
-  padding: 5px;
-  font-size: 35px;
-  transition-property: background-color, color;
-  transition-duration: 200ms;
-}
-
-.film-panel-filter-grid-content.active {
-  background-color: #d800b4;
-  color: #ffffff;
-  padding: 5px;
-  font-size: 35px;
-}
-
-.search_part-films-elem-image {
-  width: 250px;
-  height: 350px;
-  background-image: var(--poster);
-  background-position: center;
+.film_page_header-bc {
+  height: 80vh;
+  width: 70%;
+  background-image: url("https://i.playground.ru/p/1ZuTqkMQEZmfq6QuPFZe6w.png");
+  background-position: top right;
   background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.film_page_header-bc::after {
+  content: "";
+  height: 80vh;
+  width: 70%;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #1d0018);
+}
+
+.film_page_header-bc::before {
+  content: "";
+  height: 80vh;
+  width: 70%;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #1d0018);
   background-repeat: no-repeat;
 }
 
-.search_part-films-elem-infos {
-  width: auto;
-}
-
-.search_part-films-elem-info-name,
-.film_sec-info-content-name {
-  font-size: 24px;
-  color: #ca00a9;
-  cursor: pointer;
+.film_page_header-content-logo {
+  font-size: 32px;
   text-decoration: none;
-  margin-bottom: 10px;
+  color: white;
+  font-weight: 400;
 }
 
-.search_part-films-elem-info {
-  justify-content: flex-start !important;
+.film_page_header-content-logo b {
+  color: rgb(225, 0, 255);
 }
 
-.search_part-films-elem-info-name:hover {
-  text-decoration: underline;
+.film_page_header-content {
+  padding: 2vw 3vw;
+  position: absolute;
+  z-index: 99;
+  color: white;
 }
 
-.search_part-films-elem-info-genres {
-  font-size: 16px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-wrap: wrap;
+.film_page_header-content-title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 90px;
+  padding-top: 10vw;
 }
 
-.search_part-films-elem-info-year {
-  font-size: 20px;
+.film_page_header-content-description {
+  font-family: "Inter";
+  font-size: 24px;
+  padding-top: 1vw;
 }
 
-.search_part-films-elem {
+.film_page_header-content-description b {
+  color: #db00b7;
+}
+
+.film_page_main {
   width: 100%;
-}
-
-.film-content.trd {
+  overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  gap: 0px;
-  justify-content: space-between;
+  grid-template-columns: repeat(5, 20%);
+  row-gap: 80px;
+  padding: 200px 0;
+  font-family: "Inter";
 }
 
-.search_part-films-elem.trd {
-  justify-self: center;
+.film_page_main-elem-poster {
+  height: 19.5vw;
+  width: 13vw;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-image: var(--posterUrl);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 300ms;
 }
 
-.search_part-films-elem.trd {
+.film_page_main-elem {
   display: flex;
   flex-direction: column;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.search_part-films-elem.trd .search_part-films-elem-info-name {
-  font-size: 20px;
-}
-
-.search_part-films-elem.trd .search_part-films-elem-infos {
-  width: 250px;
-  padding-left: 0;
-  padding-top: 10px;
-}
-
-.search_part-films-elem-info-year_trd {
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.search_part-films-elem-image {
-  width: 250px;
-  height: auto;
-}
-
-.search_part-films-elem-image_trd {
-  width: 13vw;
-  height: 18vw;
-  background-image: var(--poster);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.search_part-films-elem.trd {
-  margin: 0;
-}
-
-.film_sec {
-  display: flex;
-}
-
-.film-content.sec {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  gap: 20px;
-}
-
-.film_sec-poster {
-  width: 11vw;
-  height: 16vw;
-}
-
-.film_sec-info-content-name {
-  font-size: 20px;
-}
-
-.film_sec-info-content-year {
-  font-size: 20px;
-}
-
-.film_sec-info-content-genres {
-  margin: 20px 0;
-}
-
-.film_sec-info {
-  margin-left: 10px;
-}
-
-.search_part-films-elem.trd .search_part-films-elem-infos {
+  gap: 5px;
   width: -moz-min-content;
   width: min-content;
+  justify-self: center;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 1100px) {
-  .search_part-films-elem.trd .search_part-films-elem-info-name {
-    font-size: 16px;
+.film_page_main-elem:hover .film_page_main-elem-poster {
+  transform: scale(1.03) translateY(-10px);
+}
+
+.film_page_main-elem-name {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.film_page_main-elem-year_n_genre {
+  color: rgb(172, 172, 172);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1440px) {
+  .film_page_header-content-title {
+    font-size: 84px;
   }
-  .search_part-films-elem-info-year_trd {
-    font-size: 14px;
-  }
-  .search_part-films-elem-info {
-    height: auto;
-  }
-  .search_part-films-elem:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  .film_sec-info-content-name {
-    font-size: 16px;
-  }
-  .film_sec-info-content-year {
-    font-size: 16px;
-  }
-  .film_sec-info-content-genres {
-    font-size: 14px;
-    margin: 15px 0;
+  .film_page_main-elem-poster {
+    height: 23vw;
+    width: 15.5vw;
   }
 }
-@media screen and (max-width: 1024px) {
-  .search_part-films-elem-image_trd {
-    width: 130px;
-    height: auto;
+@media screen and (max-width: 1170px) {
+  .film_page_header-content-title {
+    font-size: 72px;
   }
-  .search_part-films-elem-info-name {
+  .film_page_header-content-description {
     font-size: 20px;
   }
-  .search_part-films-elem-info-genres {
-    font-size: 12px;
+  .film_page_header-bc,
+  .film_page_header-bc::after,
+  .film_page_header-bc::before {
+    height: 50vw;
+    width: 70%;
+    background-position: center;
   }
-  .search_part-films-elem-info-year {
-    font-size: 16px;
+  .film_page_header-bc::after,
+  .film_page_header-bc::before {
+    height: 51vw;
   }
-  .film-content {
-    margin-top: 40px;
+  .film_page_main {
+    grid-template-columns: repeat(4, 25%);
   }
-  .search_part-films-elem-image {
-    width: 200px;
+  .film_page_main {
+    padding: 150px 0;
+    width: 90%;
+    margin: auto;
+  }
+  .film_page_main-elem-poster {
+    height: 27vw;
+    width: 18vw;
   }
 }
-@media screen and (max-width: 920px) {
-  .film-content.trd {
+@media screen and (max-width: 768px) {
+  .film_page_header-content-title {
+    font-size: 64px;
+  }
+  .film_page_header-content-description {
+    font-size: 16px;
+  }
+  .film_page_header-content-logo {
+    font-size: 24px;
+  }
+  .film_page_main-elem-name,
+  .film_page_main-elem-year_n_genre {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .film_page_main {
     grid-template-columns: repeat(3, 33.3%);
   }
-  .search_part-films-elem-image_trd {
-    width: 100%;
-    height: 24vw;
-  }
-}
-@media screen and (max-width: 865px) {
-  .search_part-films-elem-image {
-    width: 180px;
-  }
-  .search_part-films-elem-image_trd {
-    height: 26vw;
-  }
-  .film_sec-info-content-name {
-    font-size: 14px;
-  }
-  .film_sec-info-content-year {
-    font-size: 14px;
-  }
-  .film_sec-info-content-genres {
-    font-size: 12px;
-    margin: 10px 0;
-  }
-  .film_sec-info-content-name {
-    font-size: 16px;
-  }
-  .film-panel {
-    flex-direction: column;
-    align-items: flex-start;
-    height: 150px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .film-content {
-    margin-top: 30px;
-  }
-  .film_sec-info-content-name {
-    font-size: 12px;
-  }
-  .film_sec-info-content-year {
-    font-size: 12px;
-  }
-  .film_sec-info-content-genres {
-    font-size: 10px;
-    margin: 5px 0;
-  }
-}
-@media screen and (max-width: 650px) {
-  .search_part-films-elem-image_trd {
-    height: 30vw;
-  }
-  .search_part-films-elem-image {
-    width: 140px;
-  }
-  .film_sec-poster {
-    width: 16vw;
-    height: 21vw;
-  }
-  .film {
-    width: 90%;
-  }
-  .film-panel {
-    height: 120px;
-  }
-  .film-panel-filter,
-  .film-panel-filter-elem,
-  .film-panel-filter-elem li {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 570px) {
-  .film-content.trd {
-    grid-template-columns: repeat(2, 50%);
-  }
-  .search_part-films-elem-image_trd {
-    height: 40vw;
-  }
-  .film-content {
-    margin-top: 20px;
-  }
-  .film_sec-info-content-name {
-    font-size: 12px;
-  }
-  .film_sec-info-content-year {
-    font-size: 10px;
-  }
-  .film_sec-info-content-genres {
-    font-size: 10px;
-    margin: 5px 0;
-  }
-  .search_part-films-elem-info-name {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  .search_part-films-elem-info-genres {
-    font-size: 10px;
-    margin-bottom: 5px;
-  }
-  .search_part-films-elem-info-year {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 560px) {
-  .film-panel-filter,
-  .film-panel-filter-elem,
-  .film-panel-filter-elem li {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .search_part-films-elem-image_trd {
-    width: 150px;
-    height: auto;
-  }
-  .film-content.sec {
-    grid-template-columns: repeat(1, 100%);
-  }
-  .film_sec-info-content-name {
-    font-size: 14px;
-  }
-  .film_sec-info-content-year {
-    font-size: 12px;
-  }
-  .film_sec-info-content-genres {
-    font-size: 12px;
-    margin: 10px 0;
-  }
-}
-@media screen and (max-width: 460px) {
-  .film-panel-filter,
-  .film-panel-filter-elem,
-  .film-panel-filter-elem li {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 440px) {
-  .film_sec-info-content-name {
-    font-size: 12px;
-  }
-  .film_sec-info-content-year {
-    font-size: 10px;
-  }
-  .film_sec-info-content-genres {
-    font-size: 10px;
-    margin: 5px 0;
-  }
-  .search_part-films-elem-info-name,
-  .film_sec-info-content-name {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  .search_part-films-elem-image_trd {
-    width: 120px;
-    height: auto;
-  }
-  .search_part-films-elem-info-genres {
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
-  .search_part-films-elem-info-year {
-    font-size: 12px;
-  }
-  .search_part-films-elem-image {
-    width: 100px;
-    height: auto;
-  }
-  .search_part-films-elem-infos {
-    padding-left: 10px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .film {
+  .film_page_main {
     width: 95%;
   }
-  .film-panel {
-    padding: 20px;
+  .film_page_main-elem-poster {
+    height: 38vw;
+    width: 25vw;
+  }
+  .film_page_main-elem-name,
+  .film_page_main-elem-year_n_genre {
+    font-size: 14px;
   }
 }
-@media screen and (max-width: 380px) {
-  .search_part-films-elem-info-name,
-  .film_sec-info-content-name {
-    font-size: 12px;
-    margin-bottom: 5px;
+@media screen and (max-width: 510px) {
+  .film_page_main {
+    grid-template-columns: repeat(2, 50%);
   }
-  .search_part-films-elem-info-genres {
-    font-size: 10px;
-    margin-bottom: 5px;
+  .film_page_main {
+    width: 100%;
   }
-  .search_part-films-elem-info-year {
-    font-size: 10px;
+  .film_page_main-elem-poster {
+    height: 50vw;
+    width: 35vw;
   }
-  .search_part-films-elem-infos {
-    padding-left: 5px;
+  .film_page_main {
+    padding: 50px 0;
+    margin: 50px 0;
+    row-gap: 30px;
+  }
+  .film_page_main-elem-name,
+  .film_page_main-elem-year_n_genre {
+    font-size: 14px;
+  }
+  .film_page_header-content-title {
+    font-size: 52px;
+  }
+  .film_page_header-content-description {
+    font-size: 14px;
+  }
+  .film_page_header-content-logo {
+    font-size: 20px;
   }
 }
-@media screen and (max-width: 320px) {
-  .search_part-films-elem.trd .search_part-films-elem-info-name {
+@media screen and (max-width: 390px) {
+  .film_page_main {
+    grid-template-columns: repeat(2, 50%);
+  }
+  .film_page_header-content-title {
+    font-size: 40px;
+  }
+  .film_page_header-content-description {
     font-size: 12px;
   }
-  .search_part-films-elem-info-year_trd {
+  .film_page_header-content-logo {
+    font-size: 16px;
+  }
+  .film_page_main-elem-poster {
+    height: 48vw;
+    width: 33vw;
+  }
+  .film_page_main-elem-name,
+  .film_page_main-elem-year_n_genre {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .film_page_header-content-title {
+    font-size: 24px;
+  }
+  .film_page_header-content-description {
     font-size: 10px;
   }
-  .search_part-films-elem-image {
-    width: 80px;
-    height: auto;
+  .film_page_header-content-logo {
+    font-size: 14px;
   }
-  .search_part-films-elem-image_trd {
-    width: 100px;
-    height: auto;
+  .film_page_main {
+    row-gap: 20px;
+  }
+  .film_page_main-elem-name,
+  .film_page_main-elem-year_n_genre {
+    font-size: 10px;
+  }
+  .film_page_header-bc {
+    height: 60vw;
+  }
+  .film_page_header-bc::after,
+  .film_page_header-bc::before {
+    height: 61vw;
   }
 }/*# sourceMappingURL=styles.css.map */

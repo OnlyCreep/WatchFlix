@@ -42,6 +42,8 @@ export default function Navbar() {
           .then((res) => res.json())
           .then((json) => {
             setFilms(json.items.slice(0, 6));
+          })
+          .then(() => {
             setTimeout(() => {
               setLoading(false);
             }, 500);
