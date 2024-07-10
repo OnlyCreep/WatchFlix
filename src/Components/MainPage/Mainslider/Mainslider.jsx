@@ -24,14 +24,20 @@ export default function Mainslider() {
   const slider = useRef(null);
 
   const handleSizeChange = () => {
+    setSize({
+      height: (window.innerWidth * 35) / 100,
+      width: (window.innerWidth * 60) / 100,
+    });
+
+    setIndex(0);
+
+    if ((films.length + clones.length) % 2 == 0) {
+      setWidth((window.innerWidth * 60) / 100 / 2 + gap_elem / 2);
+    } else setWidth(0);
+
     if (window.innerWidth <= 1440) setGap(25);
     if (window.innerWidth <= 768) setGap(20);
     if (window.innerWidth <= 480) setGap(10);
-
-    setSize({
-      height: (window.innerWidth * 35) / 100 + (1920 - window.innerWidth) / 22,
-      width: (window.innerWidth * 60) / 100 + (1920 - window.innerWidth) / 16,
-    });
   };
 
   useEffect(() => {
@@ -47,11 +53,16 @@ export default function Mainslider() {
 
   useEffect(() => {
     window.addEventListener("resize", () => {
-      right_swip();
-      left_swip();
       handleSizeChange();
     });
   }, []);
+
+  useEffect(() => {
+    if (size)
+      if ((films.length + clones.length) % 2 == 0) {
+        setWidth(size.width / 2 + gap_elem / 2);
+      } else setWidth(0);
+  }, [films]);
 
   function right_swip() {
     if (slideSwip) {
@@ -130,11 +141,6 @@ export default function Mainslider() {
   useEffect(() => {
     setTransition(false);
     setIndex(Math.round(films.length / 2 - 1) + Math.round(clones.length / 2));
-    if (size)
-      if ((films.length + clones.length) % 2 == 0) {
-        setWidth(size.width / 2 + gap_elem / 2);
-      } else setWidth(0);
-
     setTWidth(sliderWidth);
   }, [proto_index, size]);
 
