@@ -16,6 +16,7 @@ export default function Navbar() {
   const [value, setValue] = useState("");
   const [loading, setLoading] = useState(false);
   const [token, setToken] = useState("bfea6215-8e13-4034-aca3-8ba2c6f06f4b");
+  const [searched, setSearched] = useState(false);
 
   const { panel, openPanel } = useContext(Context);
 
@@ -27,37 +28,47 @@ export default function Navbar() {
 
   useEffect(() => {
     setLoading(true);
-    if (value != "")
-      setTimeout(() => {
-        fetch(
-          `https://kinopoiskapiunofficial.tech/api/v2.2/films?order=NUM_VOTE&type=ALL&ratingFrom=0&ratingTo=10&yearFrom=1000&yearTo=3000&keyword=${value}&page=1`,
-          {
-            method: "GET",
-            headers: {
-              "X-API-KEY": token,
-              "Content-Type": "application/json",
-            },
-          }
-        )
-          .then((res) => res.json())
-          .then((json) => {
-            setFilms(json.items.slice(0, 6));
-          })
-          .then(() => {
-            setTimeout(() => {
-              setLoading(false);
-            }, 500);
-          })
-          .catch((err) => console.log(err));
-      }, 500);
-    else {
-      setLoading(false);
-      fetch("response_1720244040786.json")
+    if (value == "") {
+      fetch(`response_1720244040786.json`)
         .then((res) => res.json())
-        .then((json) => setFilms(json.items))
-        .catch((err) => console.log(err));
+        .then((json) => {
+          setFilms(json.items.slice(0, 6));
+        })
+        .then(() => setLoading(false));
+    } else {
+      setSearched(false);
     }
   }, [value, token]);
+
+  useEffect(() => {
+    let timer1 = setTimeout(() => setSearched(true), 500);
+    return () => {
+      clearTimeout(timer1);
+    };
+  }, [value]);
+
+  useEffect(() => {
+    if (searched && value != "") {
+      fetch(
+        `https://kinopoiskapiunofficial.tech/api/v2.2/films?order=NUM_VOTE&type=ALL&ratingFrom=0&ratingTo=10&yearFrom=1000&yearTo=3000&keyword=${value}&page=1`,
+        {
+          method: "GET",
+          headers: {
+            "X-API-KEY": token,
+            "Content-Type": "application/json",
+          },
+        }
+      )
+        .then((res) => res.json())
+        .then((json) => {
+          setFilms(json.items.slice(0, 6));
+        })
+        .then(() => {
+          setLoading(false);
+          setSearched(false);
+        });
+    }
+  }, [searched]);
 
   useEffect(() => {
     fetch("response_1720244040786.json")
@@ -100,10 +111,10 @@ export default function Navbar() {
               {!mobile && (
                 <>
                   <Link to={"/films"}>Фильмы</Link>
-                  <Link to={"/serials"}>Сериалы</Link>
-                  <Link to={"/for-children"}>Детям</Link>
-                  <Link to={"/sport"}>Спорт</Link>
-                  <Link to={"/news"}>Новости</Link>
+                  <Link>Сериалы</Link>
+                  <Link>Детям</Link>
+                  <Link>Спорт</Link>
+                  <Link>Новости</Link>
                 </>
               )}
             </>

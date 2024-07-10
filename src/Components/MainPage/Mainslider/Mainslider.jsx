@@ -6,11 +6,13 @@ export default function Mainslider() {
   const [films, setFilms] = useState([]);
   const [sliderWidth, setWidth] = useState("none");
   const [index, setIndex] = useState(0);
+
   const [transition, setTransition] = useState(false);
   const [clones, setClones] = useState([]);
   const [slideSwip, setSwip] = useState(true);
   const [proto_index, setProtoI] = useState(false);
   const [gap_elem, setGap] = useState(30);
+
   const [touchWidth, setTWidth] = useState(sliderWidth);
   const [touchActive, setTouch] = useState(false);
   const [startPos, setStartPos] = useState(0);
@@ -18,6 +20,8 @@ export default function Mainslider() {
     height: 650,
     width: 1150,
   });
+
+  const slider = useRef(null);
 
   const handleSizeChange = () => {
     if (window.innerWidth <= 1440) setGap(25);
@@ -29,6 +33,25 @@ export default function Mainslider() {
       width: (window.innerWidth * 60) / 100 + (1920 - window.innerWidth) / 16,
     });
   };
+
+  useEffect(() => {
+    if (window.innerWidth <= 1440) setGap(25);
+    if (window.innerWidth <= 768) setGap(20);
+    if (window.innerWidth <= 480) setGap(10);
+
+    setSize({
+      height: (window.innerWidth * 35) / 100,
+      width: (window.innerWidth * 60) / 100,
+    });
+  }, [null]);
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      right_swip();
+      left_swip();
+      handleSizeChange();
+    });
+  }, []);
 
   function right_swip() {
     if (slideSwip) {
@@ -56,23 +79,6 @@ export default function Mainslider() {
     }
     setTWidth(sliderWidth);
   }
-
-  useEffect(() => {
-    if (window.innerWidth <= 1440) setGap(25);
-    if (window.innerWidth <= 768) setGap(20);
-    if (window.innerWidth <= 480) setGap(10);
-
-    setSize({
-      height: (window.innerWidth * 35) / 100,
-      width: (window.innerWidth * 60) / 100,
-    });
-  }, [null]);
-
-  useEffect(() => {
-    window.addEventListener("resize", handleSizeChange);
-  }, []);
-
-  const slider = useRef(null);
 
   useEffect(() => {
     fetch("response_1719636419183.json", {

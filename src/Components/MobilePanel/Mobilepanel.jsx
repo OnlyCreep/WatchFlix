@@ -28,10 +28,10 @@ export default function Mobilepanel() {
         <ul className="panel_mobile-opps" onClick={() => openPanel(false)}>
           <NavLink to={"/"}>Главная</NavLink>
           <NavLink to={"/films"}>Фильмы</NavLink>
-          <NavLink to={"/serials"}>Сериалы</NavLink>
-          <NavLink to={"/for-children"}>Детям</NavLink>
-          <NavLink to={"/sport"}>Спорт</NavLink>
-          <NavLink to={"/news"}>Новости</NavLink>
+          <Link>Сериалы</Link>
+          <Link>Детям</Link>
+          <Link>Спорт</Link>
+          <Link>Новости</Link>
         </ul>
       </aside>
     </>

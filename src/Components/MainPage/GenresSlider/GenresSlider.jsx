@@ -70,7 +70,7 @@ export default function GenresSlider() {
             className="genres_slider-content"
             style={{ transform: `translateX(${-posX}px)`, gap: `${gap}px` }}
           >
-            {filmPosters.map((el) => (
+            {filmPosters.map((el, i) => (
               <Link
                 to={"#"}
                 className="genres_slider-slide"

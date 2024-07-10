@@ -40,7 +40,6 @@ export default function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/sign" element={<SignPage />} />
           <Route path="/films" element={<FilmPage />} />
-          <Route path="/serials" element={<SerialPage />} />
           <Route path={`/film&id=${filmId}`} element={<WatchPage />} />
         </Routes>
       </BrowserRouter>
